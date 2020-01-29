@@ -3,8 +3,8 @@
 # Time: O(n) | Space: O(n)
 
 def convert(s: str, numRows: int) -> str:
-    # One row means no zig zagging
-    if numRows == 1:
+    # One row horizontally or vertically means no zig zagging
+    if numRows == 1 or numRows > len(s):
         return s
     solution = ''
     s_len = len(s)
