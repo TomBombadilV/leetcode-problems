@@ -15,24 +15,10 @@ def letterCombinations(digits: str) -> List[str]:
             '8': 'tuv',
             '9': 'wxyz'
             }
-    # The number of solutions is the number of possible letters for each digit 
-    # multiplied together
-    combos = []
-    for digit in digits:
-        combos += [''] * len(dic[digit])
-    
+    # If digits is an empty string, return empty list
+    combos = [''] if digits else []
+    # Iterate through digit list
     for i in range(len(digits)):
-        # Current digit
-        digit = digits[i]
-        # Get the number of digits in the string before and after this one
-        num_prev_digits, num_following_digits = i, len(digits) - i - 1
-        # Letters corresponding to current digit
-        letters = dic[digit]
-        print(digit, num_prev_digits, num_following_digits, letters)
-        for j in range(len(letters)):
-            #combos[] + letters[j]
-            for k in range(num_prev_digits):
-                for l in range(num_following_digits):
-                    print(letters[j], k, l)
-
-letterCombinations('234')
+        # Add new digits through nested for loop
+        combos = [ a + b for a in combos for b in dic[digits[i]]]
+    return combos
