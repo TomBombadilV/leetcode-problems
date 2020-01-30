@@ -5,21 +5,19 @@
 
 def isValid(s: str) -> bool:
     l = []
-    open_brackets, close_brackets = ["(", "{", "["], [")", "}", "]"]
+    bracket_dic = {")": "(", "}": "{", "]": "["}
     for c in s:
-        if c in open_brackets:
-            l.append(c)
-        else:
+        if c in bracket_dic:
             if not(l):
                 return False
             prev = l[-1]
-            if open_brackets.index(prev) == close_brackets.index(c):
+            if prev == bracket_dic[c]:
                 l.pop()
             else: 
                 return False
-    if l:
-        return False
-    return True
+        else:
+            l.append(c)
+    return False if l else True
 
 test_cases = ["()", "()[]\{\}", "(])", "([)])", "{[]}", "["]
 for case in test_cases:
