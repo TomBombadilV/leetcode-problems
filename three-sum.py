@@ -27,5 +27,3 @@ def threeSum(nums: List[int]) -> List[List[int]]:
                     solution.add(tuple(sorted([num, pair[0], pair[1]])))
     solution = [[a, b, c] for (a, b, c) in solution]
     return solution
-
-print(threeSum([-4,-2,-2,-2,0,1,2,2,2,3,3,4,4,6,6]))
