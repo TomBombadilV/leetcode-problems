@@ -1,6 +1,6 @@
 # Letter Combinations of a Phone Number
 # Fill strings one letter at a time from dictionary
-# Time: O(n) | Space: O(n^2)
+# Time: O(n^2) | Space: O(n^2)
 
 from typing import List
 
