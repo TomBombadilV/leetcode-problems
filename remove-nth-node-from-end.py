@@ -4,11 +4,7 @@
 # Time: O(n) | Space: O(1)
 
 from typing import List
-
-class ListNode:
-    def __init__(self, x):
-        self.val = x
-        self.next = None
+from listnode import *
 
 def removeNthFromEnd(head: ListNode, n: int) -> ListNode:
     if head:
@@ -28,13 +24,6 @@ def removeNthFromEnd(head: ListNode, n: int) -> ListNode:
             return head.next
         ptr_a.next = ptr_a.next.next
     return head
-
-# Helper function to print list node values in a row
-def printList(head: ListNode):
-    while head:
-        print(head.val, end=" ")
-        head = head.next
-    print()
 
 # Basic case, empty list case, single item case, two item case
 tests = [([1, 2, 3, 4, 5], 2), ([], 0), ([1], 1), ([1, 2], 1), ([1, 2], 2)]
