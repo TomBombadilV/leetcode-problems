@@ -9,9 +9,8 @@ from typing import List
 import sys
 
 def find_next_swap_order(nums: List[int]) -> List[int]:
-""" Swap the leftmost number with the next largest number in the list. Then 
-    order the rest of the list in ascending order
-"""
+    # Swap the leftmost number with the next largest number in the list. Then 
+    # order the rest of the list in ascending order
     target = nums[0]
     ans, idx = sys.maxsize, None
     # Find the next largest number in the list
@@ -41,7 +40,7 @@ def nextPermutation(nums: List[int]) -> None:
         if left < 0:
             nums[0:] = list(reversed(nums))[0:]
             return
-    nums[left:] = find_swap_next(nums[left:])
+    nums[left:] = find_next_swap_order(nums[left:])
 
 test_cases = [  [], 
                 [1], 
@@ -66,7 +65,7 @@ expected_solutions = [  [],
                         [1, 5, 1]
                     ]
                     
-for i, test_case in enumerate(test_cases):
-    print("{0} -> ".format(test_case), end="")
-    nextPermutation(test_case)
-    print(test_case, test_case==expected_solutions[i])
+for i, case in enumerate(test_cases):
+    print("{0} -> ".format(case), end="")
+    nextPermutation(case)
+    print(case, case==expected_solutions[i])
