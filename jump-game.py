@@ -7,23 +7,21 @@
 from typing import List
 
 def canJump(nums: List[int]) -> bool:
+    # Any array size 0 or 1 can be ignored
     if len(nums) < 2:
         return True
-    curr = 0
-    while curr < len(nums):
-        if nums[curr] == 0:
+    # Keep track of the farthest index you can reach so far
+    farthest_index = 0
+    for i, num in enumerate(nums):
+        # If you can't reach this index from previous indices, then break
+        if i > farthest_index:
             return False
-        if nums[curr]+curr >= len(nums)-1:
+        # Update farthest index
+        farthest_index = max(farthest_index, i + num)
+        # If you can already reach the end, then break
+        if farthest_index >= len(nums) - 1:
             return True
-        max_jump = (curr, -1)
-        for i in range(nums[curr]):
-            temp_jump_index = curr+i+1
-            if temp_jump_index >= len(nums):
-                return True
-            temp_jump = nums[temp_jump_index] + temp_jump_index
-            max_jump = (temp_jump_index, temp_jump) if temp_jump > max_jump[1] else max_jump
-        curr = max_jump[0]
-    
+    return True
 
 test_cases = [[2, 3, 1, 1, 4], [
                 3, 2, 1, 0, 4], 
