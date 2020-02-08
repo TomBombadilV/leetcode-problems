@@ -9,6 +9,5 @@ def climbStairs(n: int) -> int:
         j, i = i + j, j
     return j
 
-test_cases = [1, 2, 3, 4, 5]
-for case in test_cases:
+for case in range(6):
     print("{0} => {1}".format(case, climbStairs(case)))
