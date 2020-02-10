@@ -1,6 +1,5 @@
 # Unique Paths
-# For 1xn, there is 1 unique path. For 2xn, there are n unique paths. For 3xn, 
-# there are 1+2+3+...+n
+# Use dp to calculate how many paths can reach each square in the matrix
 # 
 
 from collections import defaultdict
