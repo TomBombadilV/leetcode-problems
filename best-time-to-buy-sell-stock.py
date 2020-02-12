@@ -3,17 +3,14 @@
 # Time: O(n) | Space: O(1)
 
 from typing import List
+import sys
 
 def maxProfit(prices: List[int]) -> int:
-    total_profit = 0
-    max_profit = 0
-    for i in range(1, len(prices)):
-        diff = prices[i] - prices[i-1]
-        if total_profit + diff <= 0:
-            total_profit = 0
-        else:
-            total_profit += diff
-        max_profit = max(max_profit, total_profit)
+    min_price, max_profit = sys.maxsize, 0
+    for price in prices:
+        min_price = min(min_price, price)
+        curr_profit = price - min_price
+        max_profit = max(max_profit, curr_profit)
     return max_profit
 
 test_cases = [  [7, 1, 5, 3, 6, 4],
