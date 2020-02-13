@@ -1,5 +1,5 @@
 # Best Time to Buy and Sell Stock
-# Keep calculating the maximum increase, save the max
+# Find the minimum price at that point and the maximum profit at that point
 # Time: O(n) | Space: O(1)
 
 from typing import List
