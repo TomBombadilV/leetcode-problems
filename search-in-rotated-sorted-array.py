@@ -18,22 +18,24 @@ def search(nums: List[int], target: int) -> int:
 
     # Re-create array
     nums = nums[left:] + nums[:left]
+    offset = left
 
     # Search array
     left, right = 0, len(nums) - 1
     while left <= right:
         mid = (left + right) // 2
         if nums[mid] == target:
-            return True
+            return (mid + offset) % len(nums)
         if nums[mid] < target:
             left = mid + 1
         else:
             right = mid - 1
-    return False
+    return -1
 
 test_cases = [  ([4, 5, 6, 7, 0, 1, 2], 0),
                 ([4, 5, 6, 7, 0, 1, 2], 3),
-                ([], 0)
+                ([], 0),
+                ([6, 7, 0, 1, 2, 3, 4], 4)
             ]
 
 for case in test_cases:
