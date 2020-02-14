@@ -13,6 +13,12 @@ def maxSubArray(nums: List[int]) -> int:
         max_sum[i] = max(n + max_sum[i-1], n)
     return max(max_sum)
 
+def maxSubArrayBetter(nums:List[int]) -> int:
+    for i in range(len(nums)):
+        if nums[i - 1] > 0:
+            nums[i] += nums[i - 1]
+    return max(nums)
+
 test_cases = [  [-2, 1, -3, 4, -1, 2, 1, -5, 4],
                 [],
                 [1, 2, 3, 4],
