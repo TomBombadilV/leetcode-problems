@@ -1,5 +1,8 @@
 # Binary Tree Inorder Traversal
 # Done recursively and iteratively
+# Time: O(n) | Space: O(n)
+
+from typing import List
 
 # Definition for a binary tree node.
 class TreeNode:
@@ -24,14 +27,24 @@ def recurse(node: TreeNode, solution: List) -> List[int]:
 
 def iterative_inorder_traversal(root: TreeNode) -> List[int]:
     solution = []
-    stack = []
-    stack.append(root)
-    while stack:
-        curr = stack[-1]
-        if curr.left:
-            stack.append(curr.left)
-        else:
-            solution.append(stack.pop().val)
-            if curr.right:
-                stack.append(curr.right)
+    stack = [root]
+    curr = root
+    # Keep traversing the tree through the left nodes
+    while stack and curr:
+        while curr.left:
+            curr = curr.left
+            stack.append(curr)
+        curr = stack.pop()
+        solution.append(curr.val)
+        if curr.right:
+            stack.append(curr.right)
     return solution
+
+root = TreeNode(1)
+curr = root
+curr.left = TreeNode(2)
+curr.right = TreeNode(3)
+curr = curr.left
+curr.left = TreeNode(4)
+curr.right = TreeNode(5)
+print(iterative_inorder_traversal(root))
