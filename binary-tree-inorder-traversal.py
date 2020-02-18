@@ -2,14 +2,8 @@
 # Done recursively and iteratively
 # Time: O(n) | Space: O(n)
 
+from treenode import TreeNode
 from typing import List
-
-# Definition for a binary tree node.
-class TreeNode:
-    def __init__(self, x):
-        self.val = x
-        self.left = None
-        self.right = None
 
 def recursiveInorderTraversal(root: TreeNode) -> List[int]:
     solution = []
