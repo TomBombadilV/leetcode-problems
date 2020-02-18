@@ -2,17 +2,34 @@
 
 from treenode import TreeNode
 
-def iterative(root: TreeNode):
+def iterative(root: TreeNode) -> List[int]:
     res = []
-    stack = []
+    queue = []
     curr = root
-    while stack or curr:
+    while queue or curr:
         res.append(curr.val)
         if curr.left:
-            stack.append(curr.left)
+            queue.append(curr.left)
         if curr.right:
-            stack.append(curr.right)
-        curr = stack[0] if stack else None
-        stack = stack[1:]
+            queue.append(curr.right)
+        curr = queue[0] if queue else None
+        queue = queue[1:]
     return res
 
+def recursive(root: TreeNode) -> List[int]:
+    pass
+
+"""root = TreeNode(1)
+curr = root
+curr.left = TreeNode(2)
+curr.right = TreeNode(3)
+curr = curr.left
+curr.left = TreeNode(4)
+curr.right = TreeNode(5)"""
+root = TreeNode(1)
+curr = root
+curr.right = TreeNode(2)
+curr = curr.right
+curr.left = TreeNode(3)
+#print(recursive(root, []))
+print(iterative(root))

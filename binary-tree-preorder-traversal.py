@@ -3,7 +3,7 @@
 from treenode import TreeNode
 from typing import List
 
-def recursive(root: TreeNode, res: List[int]):
+def recursive(root: TreeNode, res: List[int]) -> List[int]:
     if not(root):
         return res
     res.append(root.val)
@@ -11,7 +11,7 @@ def recursive(root: TreeNode, res: List[int]):
     recursive(root.right, res)
     return res
 
-def iterative(root: TreeNode):
+def iterative(root: TreeNode) -> List[int]:
     curr = root
     res = []
     stack = []
