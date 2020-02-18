@@ -27,24 +27,29 @@ def recurse(node: TreeNode, solution: List) -> List[int]:
 
 def iterative_inorder_traversal(root: TreeNode) -> List[int]:
     solution = []
-    stack = [root]
+    stack = []
     curr = root
     # Keep traversing the tree through the left nodes
-    while stack and curr:
-        while curr.left:
-            curr = curr.left
+    while stack or curr:
+        while curr:
             stack.append(curr)
-        curr = stack.pop()
-        solution.append(curr.val)
-        if curr.right:
-            stack.append(curr.right)
+            curr = curr.left
+        if stack:
+            curr = stack.pop()
+            solution.append(curr.val)
+            curr = curr.right
     return solution
 
-root = TreeNode(1)
+"""root = TreeNode(1)
 curr = root
 curr.left = TreeNode(2)
 curr.right = TreeNode(3)
 curr = curr.left
 curr.left = TreeNode(4)
-curr.right = TreeNode(5)
+curr.right = TreeNode(5)"""
+root = TreeNode(1)
+curr = root
+curr.right = TreeNode(2)
+curr = curr.right
+curr.left = TreeNode(3)
 print(iterative_inorder_traversal(root))
