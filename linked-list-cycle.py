@@ -13,14 +13,14 @@ def hasCycle(head: ListNode) -> bool:
             fast = fast.next.next
     return False
 
-tests = [   ([3, 2, 0, -4], 1), 
-            ([1, 2], 0), 
-            ([1, 2], -1),
-            ([1], -1),
+tests = [   ([3, 2, 0, -4], 1, True), 
+            ([1, 2], 0, True), 
+            ([1, 2], -1, False),
+            ([1], -1, False),
             ([], -1)
         ]
 for test in tests:
-    arr, cycle_i = test
+    arr, cycle_i, sol = test
     # Create list out of input array
     head = ListNode(None)
     curr = head
@@ -35,4 +35,4 @@ for test in tests:
     curr.next = cycle_node
     # Throw away null node
     head = head.next
-    print("Test case: {0} => {1}".format(arr, hasCycle(head)))
+    print("Passed" if sol == hasCycle(head) else "Failed with {0}".format(not(sol)))
