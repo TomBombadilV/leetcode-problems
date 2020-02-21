@@ -52,13 +52,23 @@ def recurse(n: int, head: ListNode) -> ListNode:
     return new_head.next
 
 # Basic case, empty list case, single item case, two item case
-tests = [[2, 1], [3, 2, 1], [4, 2, 1, 3], [1, 5, 3, 4, 0], [], [1], [1, 2]]
+tests = [   [2, 1], 
+            [3, 2, 1], 
+            [4, 2, 1, 3], 
+            [1, 5, 3, 4, 0], 
+            [], 
+            [1], 
+            [1, 2]
+        ]
 for test in tests:
-    print("Test case: {0}".format(test))
+    # Create linked list from array
     head = ListNode(None)
     curr = head
     for i in test:
         curr.next = ListNode(i)
         curr = curr.next
+    # Sort list
     head = sortList(head.next)
+    # Print case and solution
+    print("Test case: {0}".format(test))
     printList(head)
