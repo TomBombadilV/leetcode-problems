@@ -8,10 +8,13 @@ def dailyTemperatures(T: List[int]) -> List[int]:
     stack = []
     res = [0] * len(T)
     for i in range(len(T)):
+        # If curr is larger than stack item
         if stack and T[i] > stack[-1][0]:
+            # While curr is larger than stack item, pop and set its days
             while stack and T[i] > stack[-1][0]:
                 _, j = stack.pop()
                 res[j] = i - j
+        # Save stack item and its index
         stack.append((T[i], i))
     return(res)
 
