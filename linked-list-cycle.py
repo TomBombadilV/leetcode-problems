@@ -17,7 +17,7 @@ tests = [   ([3, 2, 0, -4], 1, True),
             ([1, 2], 0, True), 
             ([1, 2], -1, False),
             ([1], -1, False),
-            ([], -1)
+            ([], -1, False)
         ]
 for test in tests:
     arr, cycle_i, sol = test
