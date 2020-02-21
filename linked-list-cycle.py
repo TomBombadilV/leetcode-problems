@@ -1,18 +1,38 @@
 # Linked List Cycle
+# Time: O(n) | Space: O(1)
 
 from listnode import ListNode, printList
-from typing import List
+
+def hasCycle(head: ListNode) -> bool:
+    if head:
+        slow, fast = head, head.next
+        while slow and fast and fast.next:
+            if slow == fast:
+                return True
+            slow = slow.next
+            fast = fast.next.next
+    return False
 
 tests = [   ([3, 2, 0, -4], 1), 
             ([1, 2], 0), 
-            ([1], -1)
+            ([1, 2], -1),
+            ([1], -1),
+            ([], -1)
         ]
 for test in tests:
-    print("Test case: {0}".format(test))
+    arr, cycle_i = test
+    # Create list out of input array
     head = ListNode(None)
     curr = head
-    for i in test:
-        curr.next = ListNode(i)
+    cycle_node = None
+    for i, n in enumerate(arr):
+        curr.next = ListNode(n)
         curr = curr.next
-    head = sortList(head.next)
-    printList(head)
+        # Save node that tail points to
+        if i == cycle_i:
+            cycle_node = curr
+    # Set tail to point to cycle node
+    curr.next = cycle_node
+    # Throw away null node
+    head = head.next
+    print("Test case: {0} => {1}".format(arr, hasCycle(head)))
