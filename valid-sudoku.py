@@ -17,7 +17,6 @@ def isValidSudoku(board: List[List[str]]) -> bool:
     for c in range(len(board[0])):
         nums = defaultdict(bool)
         for i in range(len(board)):
-            print(i, c, board[c][i])
             if not(board[i][c] == '.'):
                 if board[i][c] in nums:
                     return False
