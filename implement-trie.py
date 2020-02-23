@@ -5,7 +5,7 @@ from collections import defaultdict
 class TrieNode:
     def __init__(self, val):
         self.val = val
-        self.children = defaultdict(str)
+        self.children = defaultdict(TrieNode)
         self.isEnd = False
 
 class Trie:
@@ -53,10 +53,9 @@ class Trie:
                 print("'{0}' isn't in trie".format(word))
                 return False
             curr = curr.children[word[i]]
-            if i == len(word) - 1:
-                if not(curr.isEnd):
-                    print("'{0}' isn't in trie".format(word))
-                    return False
+        if not(curr.isEnd):
+            print("'{0}' isn't in trie".format(word))
+            return False
         print("'{0}' is in trie".format(word))
         return True
 
