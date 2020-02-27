@@ -47,3 +47,20 @@ curr.right = TreeNode(2)
 curr = curr.right
 curr.left = TreeNode(3)
 print(iterative_inorder_traversal(root))
+
+
+root = TreeNode(1)
+curr = root
+curr.left = TreeNode(2)
+curr.right = TreeNode(6)
+right = curr.right
+curr = curr.left
+curr.left = TreeNode(3)
+curr.right = TreeNode(4)
+curr = curr.right 
+curr.right = TreeNode(5)
+curr = right
+curr.right = TreeNode(7)
+curr = curr.right
+curr.left = TreeNode(8)
+print(iterative_inorder_traversal(root))
