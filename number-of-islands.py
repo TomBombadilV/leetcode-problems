@@ -45,4 +45,4 @@ cases = [
 for case in cases:
     grid, ans = case
     res = numIslands(grid)
-    print("Passed" if res == ans else "Failed {1} expected {2}".format(res, ans))
+    print("Passed" if res == ans else "Failed {0} expected {1}".format(res, ans))
