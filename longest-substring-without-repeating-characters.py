@@ -8,7 +8,7 @@ def lengthOfLongestSubstring(s: str) -> int:
         if curr_char in char_dic:
             # Update ptr_1 if the last instance of this character is closer 
             # than the last time a character was repeated and updated (makes 
-            # sure we're staying in the current window)
+            # sure we're staying in the current window and not going backwards)
             ptr1 = max(ptr1, char_dic[curr_char]+1)
         # Add or update current index of character to dict
         char_dic[curr_char] = ptr2
