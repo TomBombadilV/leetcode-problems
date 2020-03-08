@@ -15,6 +15,14 @@ def findAnagrams(s: str, p: str) -> List[int]:
             dic[c] -= 1
             if sum(dic.values()) == 0:
                 res.append(a_i)
+                dic[a_i] += 1
+                a_i += 1
+        else:
+            #if c in dic:
+            #    dic[c] -= 1
+            a_i = a_i + 1 if c in dic else i + 1
+            dic = Counter(p)
+    return res
 
 cases = [
     ('cbaebabacd', 'abc', [0, 6]),
