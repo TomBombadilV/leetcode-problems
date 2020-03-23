@@ -34,10 +34,17 @@ curr.right = TreeNode(3)
 curr = curr.left
 curr.left = TreeNode(4)
 curr.right = TreeNode(5)"""
-root = TreeNode(1)
+"""root = TreeNode(1)
 curr = root
 curr.right = TreeNode(2)
 curr = curr.right
-curr.left = TreeNode(3)
+curr.left = TreeNode(3)"""
+root = TreeNode(1)
+curr = root
+curr.left = TreeNode(2)
+curr = curr.left
+curr.left = TreeNode(4)
+curr = curr.left
+curr.right = TreeNode(6)
 print(recursive(root, []))
 print(iterative(root))

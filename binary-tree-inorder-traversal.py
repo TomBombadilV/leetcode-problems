@@ -49,7 +49,7 @@ curr.left = TreeNode(3)
 print(iterative_inorder_traversal(root))
 
 
-root = TreeNode(1)
+"""root = TreeNode(1)
 curr = root
 curr.left = TreeNode(2)
 curr.right = TreeNode(6)
@@ -62,5 +62,12 @@ curr.right = TreeNode(5)
 curr = right
 curr.right = TreeNode(7)
 curr = curr.right
-curr.left = TreeNode(8)
+curr.left = TreeNode(8)"""
+root = TreeNode(1)
+curr = root
+curr.left = TreeNode(2)
+curr = curr.left
+curr.left = TreeNode(4)
+curr = curr.left
+curr.right = TreeNode(6)
 print(iterative_inorder_traversal(root))
