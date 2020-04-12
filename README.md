@@ -10,4 +10,6 @@ My Python3 solutions to some Leetcode problems
 | 5      | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | [Python3](https://github.com/TomBombadilV/leetcode-problems/blob/master/longest-palindromic-substring.py) |
 | 6      | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion) | [Python3 Version 1](https://github.com/TomBombadilV/leetcode-problems/blob/master/zig-zag-conversion-1.py)<br>[Python3 Version 2](https://github.com/TomBombadilV/leetcode-problems/blob/master/zig-zag-conversion-2.py) |
 | 7      | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [Python3](https://github.com/TomBombadilV/leetcode-problems/blob/master/reverse-integer.py) |
-| 8      | []
+| 9      | [Palindrome Number](https://leetcode.com/problems/palindrome-number) | [Python3](https://github.com/TomBombadilV/leetcode-problems/blob/master/palindrome-number.py) |
+| 11     | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | [Python3](https://github.com/TomBombadilV/leetcode-problems/blob/master/container-with-most-water.py) |
+| 15     | []
