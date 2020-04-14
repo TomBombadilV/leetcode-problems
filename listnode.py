@@ -1,3 +1,4 @@
+from random import shuffle
 from typing import List
 
 class ListNode:
@@ -18,5 +19,16 @@ def buildList(l: List) -> ListNode:
     curr = head
     for i in l:
         curr.next = ListNode(i)
+        curr = curr.next
+    return head.next
+
+# Builds a random linked list of 0...n-1 with the given size. Returns head node 
+def randomList(n: int) -> ListNode:
+    head = ListNode(None)
+    curr = head
+    l = [i for i in range(n)]
+    shuffle(l)
+    for i in range(n):
+        curr.next = ListNode(l[i])
         curr = curr.next
     return head.next
