@@ -12,4 +12,6 @@ My Python3 solutions to some Leetcode problems
 | 7      | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [Python3](https://github.com/TomBombadilV/leetcode-problems/blob/master/reverse-integer.py) |
 | 9      | [Palindrome Number](https://leetcode.com/problems/palindrome-number) | [Python3](https://github.com/TomBombadilV/leetcode-problems/blob/master/palindrome-number.py) |
 | 11     | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | [Python3](https://github.com/TomBombadilV/leetcode-problems/blob/master/container-with-most-water.py) |
-| 15     | []
+| 15     | [3Sum](https://leetcode.com/problems/3sumi)      | [Python3 v1](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/three-sum.py)<br>[Python3 v2](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/three-sum-2.py#L5i) |
+| 17     | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | [Python3](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/letter-combinations.py) |
+| 19     | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | [Python3](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/remove-nth-node-from-end.py) |
