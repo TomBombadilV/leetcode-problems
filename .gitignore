@@ -1,3 +1,4 @@
 *.pyc
 /speed-screenshots/*
 /__pycache__/*
+*.swp
