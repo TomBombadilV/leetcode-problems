@@ -27,4 +27,5 @@ My Python3 solutions to some Leetcode problems
 | 32     | [Longest Vaild Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | [Python3](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/longest-valid-parentheses.py) |
 | 33     | [Search in a Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | [Python3](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/search-in-rotated-sorted-array.py) |
 | 34     | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | [Python3](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/find-first-last-position-element-in-sorted-array.py) |
-
+| 36     | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | [Python3](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/valid-sudoku.py) |
+| 37     | [Combination Sum](https://leetcode.com/problems/combination-sum) | [Python3](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/combination-sum.py) |
