@@ -3,7 +3,8 @@
 # Binary search to find rotation point. Recreate array. Binary search to find
 # target value
 # Method 2: 
-# 
+# Binary search. Check if target is in sorted part of array or not
+# Time: O(logn) | Space: O(1)
 
 from typing import List
 
@@ -47,18 +48,26 @@ def search(nums: List[int], target: int) -> int:
 # Method 2
 def search(nums: List[int], target: int) -> int:
     left, right = 0, len(nums) - 1
+    # Make sure left and right don't cross'
     while left <= right:
         mid = (left + right) // 2
+        # Check mid against target
         if nums[mid] == target:
             return mid
+        # If left side of array is sorted
         if nums[mid] >= nums[left]:
-            if target >= nums[left] and target <= nums[mid]:
+            # Check if target is in sorted part
+            if target >= nums[left] and target < nums[mid]:
                 right = mid - 1
+            # Or else look on the other side
             else:
                 left = mid + 1
+        # If right side of array is sorted
         else:
-            if target >= nums[mid] and target <= nums[right]:
+            # Check if target is in sorted part
+            if target > nums[mid] and target <= nums[right]:
                 left = mid + 1
+            # Or else look on the other side
             else:
                 right = mid - 1
     return -1
@@ -76,5 +85,3 @@ cases = [   [1, 2, 3, 4, 5],
 
 for case in cases:
     print(search(case, 1))
-
-#search(cases[3], None)
