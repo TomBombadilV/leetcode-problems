@@ -50,6 +50,22 @@ def leftMostColumnWithOne(binaryMatrix: List[List[int]]) -> int:
         min_i = res if min_i == -1 or (res < min_i and res > -1) else min_i
     return min_i
 
+# Method 2
+def leftMostColumnWithOne_2(binaryMatrix: List[List[int]]) -> int:
+    # Get dimensions of matrix
+    m, n = 0, len(binaryMatrix[0]) - 1
+    # Keep track of min
+    min_i = -1
+    # Go through each row of matrix
+    while m < len(binaryMatrix):
+        # Iterate backwards to the first instance of matrix in row
+        while n >= 0 and binaryMatrix[m][n] == 1:
+            min_i = n
+            n -= 1
+        # Go to next row
+        m += 1
+    return min_i
+
 # Method 3
 def leftMostColumnWithOne(binaryMatrix: List[List[int]]) -> int:
     # Returns index of first instance of 1 in window of row where upper bound is 
@@ -132,3 +148,4 @@ cases = [   [[0, 0],
 ]
 for case in cases:
     print(leftMostColumnWithOne(case))
+    print(leftMostColumnWithOne_2(case))
