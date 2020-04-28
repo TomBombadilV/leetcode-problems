@@ -13,14 +13,19 @@ class FirstUnique:
             self.add(n)
 
     def showFirstUnique(self) -> int: 
+        # If there is a number in the unique set
         if len(self.unique) > 0:
+            # Return it
             return next(iter(self.unique.items()))[0]
         return -1
 
     def add(self, value: int) -> None:
+        # If number already exists in queue
         if value in self.q:
+            # Delete it from unique set
             if value in self.unique:
                 del self.unique[value]
+        # If new, add to queue and unique set
         else:
             self.q.add(value)
             self.unique[value] = True
