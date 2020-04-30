@@ -6,7 +6,7 @@ class ListNode:
         self.val = x
         self.next = None
 
-class DoublyLinkedList:
+class DoublyLinkedListNode:
     def __init__(self, x):
         self.val = x
         self.prev = None
