@@ -6,6 +6,12 @@ class ListNode:
         self.val = x
         self.next = None
 
+class DoublyLinkedList:
+    def __init__(self, x):
+        self.val = x
+        self.prev = None
+        self.next = None
+
 # Helper function to print list node values in a row
 def printList(head: ListNode):
     while head:
