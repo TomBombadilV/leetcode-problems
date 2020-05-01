@@ -37,3 +37,10 @@ My Python 3 solutions to some Leetcode problems
 | 48     | [Rotate Image](https://leetcode.com/problems/rotate-image) | [Python 3](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/rotate-image.py) |
 | 49     | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | [Python 3](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/group-anagrams.py) |
 | 50     | [Pow(x, n)](https://leetcode.com/problems/powx-n) | [Python 3](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/pow.py) |
+| 53     | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | [Python 3](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/maximum-subarray.py) |
+| 55     | [Jump Game](https://leetcode.com/problems/jump-game) | [Python 3 - v1](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/jump-game.py)<br>[Python3 - v2](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/jump-game-2.py) |
+| 56     | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | [Python 3](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/merge-intervals.py) |
+| 60     | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence) | [Python 3](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/permutation-sequence.py) |
+| 62     | [Unique Paths](https://leetcode.com/problems/unique-paths) | [Python 3](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/unique-paths.py) |
+| 64     | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) | [Python 3 - v1](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/minimum-path-sum.py)<br>[Python 3 - v2](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/minimum-path-sum-2.py) |
+| 66     | [Plus One](https://leetcode.com/problems/plus-one) | [Python 3](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/plus-one.py) |
