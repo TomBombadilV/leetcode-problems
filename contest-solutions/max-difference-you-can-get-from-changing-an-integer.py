@@ -16,10 +16,6 @@
 def maxDiff(num: int) -> int:
     
     def find_max(num: int) -> int:
-        """
-        Returns highest number found by replacing all instances of a digit in given
-        number.
-        """
         s_num = str(num)
         for i in range(len(s_num)):
             # Look for s_num instance of non-9 digit and replace with 9
@@ -29,10 +25,6 @@ def maxDiff(num: int) -> int:
         return int(s_num)
 
     def find_min(num: int) -> int:
-        """
-        Returns smallest non-zero number with no leading zeroes found by replacing all
-        instances of a digit in given number.
-        """
         s_num = str(num)
         # If s_num digit is not 1, replace all instances with 1
         replace_with = '1' if not(s_num[0] == '1') else '0'
