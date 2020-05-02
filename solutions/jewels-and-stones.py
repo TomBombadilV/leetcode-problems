@@ -1,7 +1,7 @@
 # Jewels and Stones
 # Add all jewels into a hashset. Iterate through string and increment counter if
 # stone exists in jewel set.
-# Time: O(J + S)
+# Time: O(J + S) | Space: O(J)
 
 def numJewelsInStones(J: str, S: str) -> int:
     # Add jewels to set
