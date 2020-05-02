@@ -43,9 +43,7 @@ def maxDiff(num: int) -> int:
                 break
         return int(s_num) 
 
-    max_num = find_max(num)
-    min_num = find_min(num)
-    return max_num - min_num
+    return find_max(num) - find_min(num)
 
 # Driver Code
 cases = [(555, 888), (9, 8), (123456, 820000), (10000, 80000), (9288, 8700)]
