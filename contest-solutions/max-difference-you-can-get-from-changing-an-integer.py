@@ -13,59 +13,44 @@
 # 3. Finally, return difference between the two.
 # Time: O(n) | Space: O(n)
 
-def replace(s: str, i: int, new_char: str) -> str:
-    """
-    Replaces char at given index with given new char
-    """
-    return s[:i] + new_char + s[i + 1:]
-
-def find_max(num: int) -> int:
-    """
-    Returns highest number found by replacing all instances of a digit in given
-    number.
-    """
-    s_num = str(num)
-    i, found = 0, None
-    while i < len(s_num):
-        # Look for s_num instance of non-9 digit and replace with 9
-        if not(found) and s_num[i] < '9':
-            found = s_num[i]
-            s_num = replace(s_num, i, '9')
-        # Look for all following instances of "found" digit and replace with 9 
-        else:
-            if s_num[i] == found:
-                s_num = replace(s_num, i, '9')
-        i += 1
-    return int(s_num)
-
-def find_min(num: int) -> int:
-    """
-    Returns smallest non-zero number with no leading zeroes found by replacing all
-    instances of a digit in given number.
-    """
-    s_num = str(num)
-    i, found = 0, None
-    set_to, comparator = '0', '0'
-    # If s_num digit is a 1, ignore 1 and check for s_num digit > 1 and flip to 0
-    if s_num[0] == '1':
-        comparator = '1'
-    # If s_num digit is not 1, select it and flip all instances to 1
-    else:
-        found = s_num[0]
-        set_to = '1'
-    while i < len(s_num):
-        # Look for s_num instance of number higher than comparator and replace
-        if not(found) and s_num[i] > comparator:
-            found = s_num[i]
-            s_num = replace(s_num, i, set_to)
-        # Look for all following instances of "found" digit and replace
-        else:
-            if s_num[i] == found:
-                s_num = repace(s_num, i, set_to)
-        i += 1
-    return int(s_num) 
-
 def maxDiff(num: int) -> int:
+    
+    def find_max(num: int) -> int:
+        """
+        Returns highest number found by replacing all instances of a digit in given
+        number.
+        """
+        s_num = str(num)
+        for i in range(len(s_num)):
+            # Look for s_num instance of non-9 digit and replace with 9
+            if s_num[i] < '9':
+                s_num = s_num.replace(s_num[i], '9')
+                break
+        return int(s_num)
+
+    def find_min(num: int) -> int:
+        """
+        Returns smallest non-zero number with no leading zeroes found by replacing all
+        instances of a digit in given number.
+        """
+        s_num = str(num)
+        # If s_num digit is not 1, replace all instances with 1
+        replace_with = '1' if not(s_num[0] == '1') else '0'
+        for i in range(len(s_num)):
+            # Look for s_num instance of number higher than comparator and replace
+            if s_num[i] > '1':
+                s_num = s_num.replace(s_num[i], replace_with)
+                break
+        return int(s_num) 
+
     max_num = find_max(num)
-    min_num = fnid_min(num)
+    min_num = find_min(num)
     return max_num - min_num
+
+# Driver Code
+cases = [(555, 888), (9, 8), (123456, 820000), (10000, 80000), (9288, 8700)]
+for case in cases:
+    num, expected = case
+    res = maxDiff(num)
+    print("Passed" if res == expected else "{0} failed with {1} expected {2}".\
+          format(num, res, expected))
