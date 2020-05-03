@@ -10,6 +10,7 @@ My Python 3 solutions to some Leetcode problems
 | 5      | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/longest-palindromic-substring.py) | string |
 | 6      | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion) | [Solution - v1](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/zig-zag-conversion-1.py)<br>[Solution - v2](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/zig-zag-conversion-2.py) |
 | 7      | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/reverse-integer.py) |
+| 8      | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/string-to-integer-atoi.py) | |
 | 9      | [Palindrome Number](https://leetcode.com/problems/palindrome-number) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/palindrome-number.py) |
 | 11     | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/container-with-most-water.py) |
 | 15     | [3Sum](https://leetcode.com/problems/3sumi)      | [Solution - v1](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/3sum.py)<br>[Solution - v2](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/solutions/3sum-2.py) |
@@ -26,6 +27,7 @@ My Python 3 solutions to some Leetcode problems
 | 31     | [Next Permutation](https://leetcode.com/problems/next-permutation) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/next-permutation.py) |
 | 32     | [Longest Vaild Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/longest-valid-parentheses.py) |
 | 33     | [Search in a Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/search-in-rotated-sorted-array.py) |
+| 35     | [Search Insert Position](https://leetcode.com/problems/search-insert-position) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/search-insert-position.py) |
 | 34     | [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/find-first-last-position-element-in-sorted-array.py) |
 | 36     | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/valid-sudoku.py) |
 | 39     | [Combination Sum](https://leetcode.com/problems/combination-sum) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/combination-sum.py) |
@@ -44,3 +46,10 @@ My Python 3 solutions to some Leetcode problems
 | 62     | [Unique Paths](https://leetcode.com/problems/unique-paths) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/unique-paths.py) |
 | 64     | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum) | [Solution - v1](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/minimum-path-sum.py)<br>[Solution - v2](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/minimum-path-sum-2.py) |
 | 66     | [Plus One](https://leetcode.com/problems/plus-one) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/plus-one.py) |
+| 70     | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs) | [Solution - v1](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/climbing-stairs.py)<br>[Solution - v2](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/climbing-stairs-again.py) |
+| 75     | [Sort Colors](https://leetcode.com/problems/sort-colors) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/sort-colors.py) |
+| 77     | [Combinations](https://leetcode.com/problems/combinations) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/combinations.py)
+| 78     | [Subsets](https://leetcode.com/problems/subsets) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/subsets.py) |
+| 79     | [Word Search](https://leetcode.com/problems/word-search) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/word-search.py) |
+| 94     | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/binary-tree-inorder-traversal.py) |
+| 98     | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/validate-binary-search-tree.py) |
