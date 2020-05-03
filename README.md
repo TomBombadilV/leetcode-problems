@@ -1,16 +1,16 @@
 # Leetcode
 My Python 3 solutions to some Leetcode problems
-#d9534f
-#f0ad4e
-#5cb85c
 
-![#d9534f](https://via.placeholder.com/15/d9534f/000000?text=+) 
-![#f0ad4e](https://via.placeholder.com/15/f0ad4e/000000?text=+) 
-![#5cb85c](https://via.placeholder.com/15/5cb85c/000000?text=+)
+![#5cb85c](https://via.placeholder.com/15/5cb85c/000000?text=+) = Easy
+![#f0ad4e](https://via.placeholder.com/15/f0ad4e/000000?text=+) = Medium
+![#d9534f](https://via.placeholder.com/15/d9534f/000000?text=+) = Hard
 
 | #      | Title                                                                                               |   | Code | Tags |
 | ------ | --------------------------------------------------------------------------------------------------- | - | ---- | ---- |
-| 1      | [Two Sum](https://leetcode.com/problems/two-sum)                                                    | ![#5cb85c](https://via.placeholder.com/15/5cb85c/000000?text=+) |[Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/two-sum.py) | array, dictionary |
+| 1      | [Two Sum](https://leetcode.com/problems/two-sum)                                                    
+         | ![#5cb85c](https://via.placeholder.com/15/5cb85c/000000?text=+) 
+         | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/two-sum.py) 
+         | array, dictionary |
 | 2      | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers)                                    | ![#f0ad4e](https://via.placeholder.com/15/f0ad4e/000000?text=+) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/add-two-numbers.py) | linked-list |
 | 3      | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) | ![#f0ad4e](https://via.placeholder.com/15/f0ad4e/000000?text=+) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/longest-substring-without-repeating-characters.py) | string, dictionary |
 | 4      | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | ![#d9534f](https://via.placeholder.com/15/d9534f/000000?text=+) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/median-of-two-sorted-arrays.py) | array |
