@@ -69,97 +69,97 @@ My Python 3 solutions to some Leetcode problems
 [7-Q]:    https://leetcode.com/problems/reverse-integer/
 [8-Q]:    https://leetcode.com/problems/string-to-integer-atoi/
 [9-Q]:    https://leetcode.com/problems/palindrome-number
-[10-Q]: 
+[10-Q]:   <>
 [11-Q]:   https://leetcode.com/problems/container-with-most-water
-[12-Q]: 
-[13-Q]: 
-[14-Q]: 
+[12-Q]:   <>
+[13-Q]:   <>
+[14-Q]:   <>
 [15-Q]:   https://leetcode.com/problems/3sum
 [16-Q]:   https://leetcode.com/problems/3sum-closest
 [17-Q]:   https://leetcode.com/problems/letter-combinations-of-a-phone-number
-[18-Q]: 
+[18-Q]:   <>
 [19-Q]:   https://leetcode.com/problems/remove-nth-node-from-end-of-list
 [20-Q]:   https://leetcode.com/problems/valid-parentheses
 [21-Q]:   https://leetcode.com/problems/merge-two-sorted-lists
 [22-Q]:   https://leetcode.com/problems/generate-parentheses
 [23-Q]:   https://leetcode.com/problems/merge-k-sorted-lists
 [24-Q]:   https://leetcode.com/problems/swap-nodes-in-pairs
-[25-Q]: 
+[25-Q]:   <>
 [26-Q]:   https://leetcode.com/problems/remove-duplicates-from-sorted-array
 [27-Q]:   https://leetcode.com/problems/remove-element
-[28-Q]: 
-[29-Q]: 
-[30-Q]: 
+[28-Q]:   <>
+[29-Q]:   <>
+[30-Q]:   <>
 [31-Q]:   https://leetcode.com/problems/next-permutation
 [32-Q]:   https://leetcode.com/problems/longest-valid-parentheses
 [33-Q]:   https://leetcode.com/problems/search-in-rotated-sorted-array
 [34-Q]:   https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array
 [35-Q]:   https://leetcode.com/problems/search-insert-position
 [36-Q]:   https://leetcode.com/problems/valid-sudoku
-[37-Q]: 
-[38-Q]: 
+[37-Q]:   <>
+[38-Q]:   <>
 [39-Q]:   https://leetcode.com/problems/combination-sum
-[40-Q]: 
+[40-Q]:   <>
 [41-Q]:   https://leetcode.com/problems/first-missing-positive
 [42-Q]:   https://leetcode.com/problems/trapping-rain-water
-[43-Q]: 
-[44-Q]: 
+[43-Q]:   <>
+[44-Q]:   <>
 [45-Q]:   https://leetcode.com/problems/jump-game-ii
 [46-Q]:   https://leetcode.com/problems/permutations
 [47-Q]:   https://leetcode.com/problems/permutations-ii
 [48-Q]:   https://leetcode.com/problems/rotate-image
 [49-Q]:   https://leetcode.com/problems/group-anagrams
 [50-Q]:   https://leetcode.com/problems/powx-n
-[51-Q]: 
-[52-Q]: 
+[51-Q]:   <>
+[52-Q]:   <>
 [53-Q]:   https://leetcode.com/problems/maximum-subarray
-[54-Q]:    
+[54-Q]:   <>
 [55-Q]:   https://leetcode.com/problems/jump-game
 [56-Q]:   https://leetcode.com/problems/merge-intervals
-[57-Q]: 
-[58-Q]: 
-[59-Q]: 
+[57-Q]:   <>
+[58-Q]:   <>
+[59-Q]:   <>
 [60-Q]:   https://leetcode.com/problems/permutation-sequence
-[61-Q]:   
+[61-Q]:   <>
 [62-Q]:   https://leetcode.com/problems/unique-paths
-[63-Q]:   
+[63-Q]:   <>
 [64-Q]:   https://leetcode.com/problems/minimum-path-sum
-[65-Q]:   
+[65-Q]:   <>
 [66-Q]:   https://leetcode.com/problems/plus-one
-[67-Q]:   
-[68-Q]:   
-[69-Q]:   
+[67-Q]:   <>
+[68-Q]:   <>
+[69-Q]:   <>
 [70-Q]:   https://leetcode.com/problems/climbing-stairs
-[71-Q]:   
-[72-Q]:   
-[73-Q]:   
-[74-Q]:   
+[71-Q]:   <>
+[72-Q]:   <>
+[73-Q]:   <>
+[74-Q]:   <>
 [75-Q]:   https://leetcode.com/problems/sort-colors
-[76-Q]:   
+[76-Q]:   <>
 [77-Q]:   https://leetcode.com/problems/combinations
 [78-Q]:   https://leetcode.com/problems/subsets
 [79-Q]:   https://leetcode.com/problems/word-search
-[80-Q]:   
-[81-Q]:   
-[82-Q]:   
-[83-Q]:   
-[84-Q]:   
-[85-Q]:   
-[86-Q]:   
-[87-Q]:   
-[88-Q]:   
-[89-Q]:   
-[90-Q]:   
-[91-Q]:   
-[92-Q]:   
-[93-Q]:   
+[80-Q]:   <>
+[81-Q]:   <>
+[82-Q]:   <>
+[83-Q]:   <>
+[84-Q]:   <>
+[85-Q]:   <>
+[86-Q]:   <>
+[87-Q]:   <>
+[88-Q]:   <>
+[89-Q]:   <>
+[90-Q]:   <>
+[91-Q]:   <>
+[92-Q]:   <>
+[93-Q]:   <>
 [94-Q]:   https://leetcode.com/problems/binary-tree-inorder-traversal
-[95-Q]:   
-[96-Q]:   
-[97-Q]:   
+[95-Q]:   <>
+[96-Q]:   <>
+[97-Q]:   <>
 [98-Q]:   https://leetcode.com/problems/validate-binary-search-tree
-[99-Q]:   
-[100-Q]:  
+[99-Q]:   <>
+[100-Q]:  <>
 
 [1-A]:    https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/two-sum.py
 [2-A]:    https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/add-two-numbers.py
@@ -171,16 +171,16 @@ My Python 3 solutions to some Leetcode problems
 [7-A]:    https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/reverse-integer.py
 [8-A]:    https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/string-to-integer-atoi.py
 [9-A]:    https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/palindrome-number.py
-[10-A]: 
+[10-A]:   <>
 [11-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/container-with-most-water.py
-[12-A]: 
-[13-A]: 
-[14-A]: 
+[12-A]:   <>
+[13-A]:   <>
+[14-A]:   <>
 [15-A1]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/3sum.py
 [15-A2]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/3sum-2.py
 [16-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/3sum-closest.py
 [17-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/letter-combinations.py
-[18-A]: 
+[18-A]:   <>
 [19-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/remove-nth-node-from-end.py
 [20-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/valid-parentheses.py
 [21-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/merge-two-sorted-lists.py
@@ -188,20 +188,20 @@ My Python 3 solutions to some Leetcode problems
 [23-A1]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/merge-k-sorted-lists.py
 [23-A2]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/solutions/merge-k-sorted-lists-2.py
 [24-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/swap-pairs.py
-[25-A]:   
+[25-A]:   <>
 [26-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/remove-duplicates-from-sorted-array.py
 [27-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/remove-element.py
-[28-A]:   
-[29-A]:   
-[30-A]:   
+[28-A]:   <>
+[29-A]:   <>
+[30-A]:   <>
 [31-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/next-permutation.py
 [32-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/longest-valid-parentheses.py
 [33-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/search-in-rotated-sorted-array.py
 [34-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/find-first-last-position-element-in-sorted-array.py
 [35-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/search-insert-position.py
 [36-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/valid-sudoku.py
-[37-A]:   
-[38-A]:   
+[37-A]:   <>
+[38-A]:   <>
 [39-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/combination-sum.py
 [40-A]:   
 [41-A]:   
