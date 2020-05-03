@@ -14,7 +14,7 @@ My Python 3 solutions to some Leetcode problems
 | 7      | [Reverse Integer][7-Q]                                                           | ![#5cb85c][Easy]   | [Solution][7-A]                                   |                    |
 | 8      | [String to Integer (atoi)][8-Q]                                                  | ![#f0ad4e][Medium] | [Solution][8-A]                                   |                    |
 | 9      | [Palindrome Number][9-Q]                                                         |                    | [Solution][9-A]                                   |                    |
-| 11     | [Container With Most Water][11-Q]                                                | ![#f0ad4e][Medium] | [Solution][11-A]                                  |
+| 11     | [Container With Most Water][11-Q]                                                | ![#f0ad4e][Medium] | [Solution][11-A]                                  |                    |
 | 15     | [3Sum][15-Q]                                                                     | ![#f0ad4e][Medium] | [Solution - v1][15-A1]<br>[Solution - v2][15-A2]  |
 | 16     | [3Sum Closest][16-Q]                                                             | ![#f0ad4e][Medium] | [Solution][16-Q]                                  |
 | 17     | [Letter Combinations of a Phone Number][17-Q]                                    | ![#f0ad4e][Medium] | [Solution]() |
