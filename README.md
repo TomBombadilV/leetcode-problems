@@ -3,7 +3,7 @@ My Python 3 solutions to some Leetcode problems
 
 | #      | Title                                                                                               | Code | Tags |
 | ------ | --------------------------------------------------------------------------------------------------- | ---- | ---- |
-| 1      | [#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) [Two Sum](https://leetcode.com/problems/two-sum)                                                    | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/two-sum.py) | array, dictionary |
+| 1      | ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) [Two Sum](https://leetcode.com/problems/two-sum)                                                    | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/two-sum.py) | array, dictionary |
 | 2      | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers)                                    | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/add-two-numbers.py) | linked-list |
 | 3      | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/longest-substring-without-repeating-characters.py) | string, dictionary |
 | 4      | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/median-of-two-sorted-arrays.py) | array |
