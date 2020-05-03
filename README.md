@@ -33,28 +33,28 @@ My Python 3 solutions to some Leetcode problems
 | 35     | [Search Insert Position][35-Q]                                                   | [Solution]() |
 | 36     | [Valid Sudoku][36-Q]                                                             | ![#f0ad4e][Medium] | [Solution]() |
 | 39     | [Combination Sum][39-Q]                                                          | ![#f0ad4e][Medium] | [Solution]() |
-| 41     | [First Missing Positive][41-Q]                                                   | ![#d9534f][Hard] | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/first-missing-positive.py) |
-| 42     | [Trapping Rain Water][42-Q]                                                      | ![#d9534f][Hard] | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/trapping-rain-water.py) |
-| 45     | [Jump Game II][45-Q]                                                             | ![#d9534f][Hard] | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/jump-game-ii.py) |
-| 46     | [Permutations][46-Q]                                                             | ![#f0ad4e][Medium] | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/permutations.py) |
-| 47     | [Permutations II][47-Q]                                                          | ![#f0ad4e][Medium] | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/permutations-ii.py) |
-| 48     | [Rotate Image][48-Q]                                                             | ![#f0ad4e][Medium] | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/rotate-image.py) |
-| 49     | [Group Anagrams][49-Q]                                                           | ![#f0ad4e][Medium] | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/group-anagrams.py) |
-| 50     | [Pow(x, n)][50-Q]                                                                | ![#f0ad4e][Medium] | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/pow.py) |
-| 53     | [Maximum Subarray][53-Q]                                                         | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/maximum-subarray.py) |
-| 55     | [Jump Game][55-Q] | [Solution - v1](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/jump-game.py)<br>[Python3 - v2](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/jump-game-2.py) |
-| 56     | [Merge Intervals][56-Q] | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/merge-intervals.py) |
-| 60     | [Permutation Sequence][60-Q] | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/permutation-sequence.py) |
-| 62     | [Unique Paths][62-Q] | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/unique-paths.py) |
-| 64     | [Minimum Path Sum][64-Q] | [Solution - v1](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/minimum-path-sum.py)<br>[Solution - v2](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/minimum-path-sum-2.py) |
-| 66     | [Plus One][66-Q] | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/plus-one.py) |
-| 70     | [Climbing Stairs][70-Q] | [Solution - v1](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/climbing-stairs.py)<br>[Solution - v2](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/climbing-stairs-again.py) |
-| 75     | [Sort Colors][75-Q] | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/sort-colors.py) |
-| 77     | [Combinations][77-Q] | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/combinations.py)
-| 78     | [Subsets][78-Q] | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/subsets.py) |
-| 79     | [Word Search][79-Q] | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/word-search.py) |
-| 94     | [Binary Tree Inorder Traversal][94-Q] | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/binary-tree-inorder-traversal.py) |
-| 98     | [Validate Binary Search Tree][98-Q] | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/validate-binary-search-tree.py) |
+| 41     | [First Missing Positive][41-Q]                                                   | ![#d9534f][Hard] | [Solution]() |
+| 42     | [Trapping Rain Water][42-Q]                                                      | ![#d9534f][Hard] | [Solution]() |
+| 45     | [Jump Game II][45-Q]                                                             | ![#d9534f][Hard] | [Solution]() |
+| 46     | [Permutations][46-Q]                                                             | ![#f0ad4e][Medium] | [Solution]() |
+| 47     | [Permutations II][47-Q]                                                          | ![#f0ad4e][Medium] | [Solution]() |
+| 48     | [Rotate Image][48-Q]                                                             | ![#f0ad4e][Medium] | [Solution]() |
+| 49     | [Group Anagrams][49-Q]                                                           | ![#f0ad4e][Medium] | [Solution]() |
+| 50     | [Pow(x, n)][50-Q]                                                                | ![#f0ad4e][Medium] | [Solution]() |
+| 53     | [Maximum Subarray][53-Q]                                                         | [Solution]() |
+| 55     | [Jump Game][55-Q] | [Solution - v1]()<br>[Python3 - v2]() |
+| 56     | [Merge Intervals][56-Q] | [Solution]() |
+| 60     | [Permutation Sequence][60-Q] | [Solution]() |
+| 62     | [Unique Paths][62-Q] | [Solution]() |
+| 64     | [Minimum Path Sum][64-Q] | [Solution - v1]()<br>[Solution - v2]() |
+| 66     | [Plus One][66-Q] | [Solution]() |
+| 70     | [Climbing Stairs][70-Q] | [Solution - v1]()<br>[Solution - v2]() |
+| 75     | [Sort Colors][75-Q] | [Solution]() |
+| 77     | [Combinations][77-Q] | [Solution]()
+| 78     | [Subsets][78-Q] | [Solution]() |
+| 79     | [Word Search][79-Q] | [Solution]() |
+| 94     | [Binary Tree Inorder Traversal][94-Q] | [Solution]() |
+| 98     | [Validate Binary Search Tree][98-Q] | [Solution]() |
 
 [Easy]:   https://via.placeholder.com/15/5cb85c/000000?text=+
 [Medium]: https://via.placeholder.com/15/f0ad4e/000000?text=+
@@ -203,64 +203,67 @@ My Python 3 solutions to some Leetcode problems
 [37-A]:   <>
 [38-A]:   <>
 [39-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/combination-sum.py
-[40-A]:   
-[41-A]:   
-[42-A]:   
-[43-A]:   
-[44-A]:   
-[45-A]:   
-[46-A]:   
-[47-A]:   
-[48-A]:   
-[49-A]:   
-[50-A]:   
-[51-A]:   
-[52-A]:   
-[53-A]:   
-[54-A]:   
-[55-A]:   
-[56-A]:   
-[57-A]:   
-[58-A]:   
-[59-A]:   
-[60-A]:   
-[61-A]:   
-[62-A]:   
-[63-A]:   
-[64-A]:   
-[65-A]:   
-[66-A]:   
-[67-A]:   
-[68-A]:   
-[69-A]:   
-[70-A]:   
-[71-A]:   
-[72-A]:   
-[73-A]:   
-[74-A]:   
-[75-A]:   
-[76-A]:   
-[77-A]:   
-[78-A]:   
-[79-A]:   
-[80-A]:   
-[81-A]:   
-[82-A]:   
-[83-A]:   
-[84-A]:   
-[85-A]:   
-[86-A]:   
-[87-A]:   
-[88-A]:   
-[89-A]:   
-[90-A]:   
-[91-A]:   
-[92-A]:   
-[93-A]:   
-[94-A]:   
-[95-A]:   
-[96-A]:   
-[97-A]:   
-[98-A]:   
-[99-A]:   
-[100-A]:  
+[40-A]:   <>
+[41-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/first-missing-positive.py
+[42-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/trapping-rain-water.py
+[43-A]:   <>
+[44-A]:   <>
+[45-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/jump-game-ii.py
+[46-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/permutations.py
+[47-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/permutations-ii.py
+[48-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/rotate-image.py
+[49-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/group-anagrams.py
+[50-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/pow.py
+[51-A]:   <>
+[52-A]:   <>
+[53-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/maximum-subarray.py
+[54-A]:   <>
+[55-A1]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/jump-game.py
+[55-A2]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/jump-game-2.py
+[56-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/merge-intervals.py
+[57-A]:   <>
+[58-A]:   <>
+[59-A]:   <>
+[60-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/permutation-sequence.py
+[61-A]:   <>
+[62-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/unique-paths.py
+[63-A]:   <>
+[64-A1]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/minimum-path-sum.py
+[64-A2]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/minimum-path-sum-2.py
+[65-A]:   <>
+[66-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/plus-one.py
+[67-A]:   <>
+[68-A]:   <>
+[69-A]:   <>
+[70-A1]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/climbing-stairs.py
+[70-A2]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/climbing-stairs-again.py
+[71-A]:   <>
+[72-A]:   <>
+[73-A]:   <>
+[74-A]:   <>
+[75-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/sort-colors.py
+[76-A]:   <>
+[77-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/combinations.py
+[78-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/subsets.py
+[79-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/word-search.py
+[80-A]:   <>
+[81-A]:   <>
+[82-A]:   <>
+[83-A]:   <>
+[84-A]:   <>
+[85-A]:   <>
+[86-A]:   <>
+[87-A]:   <>
+[88-A]:   <>
+[89-A]:   <>
+[90-A]:   <>
+[91-A]:   <>
+[92-A]:   <>
+[93-A]:   <>
+[94-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/binary-tree-inorder-traversal.py
+[95-A]:   <>
+[96-A]:   <>
+[97-A]:   <>
+[98-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/validate-binary-search-tree.py
+[99-A]:   <>
+[100-A]:  <>
