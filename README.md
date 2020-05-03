@@ -3,32 +3,33 @@ My Python 3 solutions to some Leetcode problems
 
 
 
-| #      | Title                                                                                               |   | Code | Tags |
-| ------ | --------------------------------------------------------------------------------------------------- | - | ---- | ---- |
-| 1      | [Two Sum](https://leetcode.com/problems/two-sum)                                                    | ![#5cb85c][Easy] | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/two-sum.py) | array, dictionary |
-| 2      | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers)                                    | ![#f0ad4e][Medium] | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/add-two-numbers.py) | linked-list |
-| 3      | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) | ![#f0ad4e][Medium] | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/longest-substring-without-repeating-characters.py) | string, dictionary |
-| 4      | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays)            | ![#d9534f][Hard] | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/median-of-two-sorted-arrays.py) | array |
-| 5      | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring)        | ![#f0ad4e][Medium] | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/longest-palindromic-substring.py) | string |
-| 6      | [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion)                                | ![#f0ad4e][Medium] | [Solution - v1](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/zig-zag-conversion-1.py)<br>[Solution - v2](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/zig-zag-conversion-2.py) |
-| 7      | [Reverse Integer](https://leetcode.com/problems/reverse-integer/)                                   |                                                                 | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/reverse-integer.py) |
-| 8      | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)                   | ![#f0ad4e][Medium] | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/string-to-integer-atoi.py) | |
-| 9      | [Palindrome Number](https://leetcode.com/problems/palindrome-number) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/palindrome-number.py) |
+| #      | Title                                                                                |                    | Code                     | Tags              |
+| ------ | ------------------------------------------------------------------------------------ | ------------------ | ------------------------ | ----------------- |
+| 1      | [Two Sum][1-Q]                                                                       | ![#5cb85c][Easy]   | [Solution][1-A]          | array, dictionary |
+| 2      | [Add Two Numbers][2-Q]                                                               | ![#f0ad4e][Medium] | [Solution][2-A]          | linked-list |
+| 3      | [Longest Substring Without Repeating Characters][3-Q]                                | ![#f0ad4e][Medium] | [Solution][3-A]          | string, dictionary |
+| 4      | [Median of Two Sorted Arrays][4-Q]                                                   | ![#d9534f][Hard]   | [Solution][4-A]          | array |
+| 5      | [Longest Palindromic Substring][5-Q]                                                 | ![#f0ad4e][Medium] | [Solution][5-A]          | string |
+| 6      | [ZigZag Conversion][6-Q]                                                             | ![#f0ad4e][Medium] | [Solution - v1][6-A1]<br>
+                                                                                                                       [Solution - v2][6-A2] |
+| 7      | [Reverse Integer][7-Q]                                                               |                    | [Solution]() |
+| 8      | [String to Integer (atoi)][8-Q]                                                      | ![#f0ad4e][Medium] | [Solution]() | |
+| 9      | [Palindrome Number][9-Q]                                |                    | [Solution]() |
 | 11     | [Container With Most Water](https://leetcode.com/problems/container-with-most-water)                | ![#f0ad4e][Medium] | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/container-with-most-water.py) |
-| 15     | ![#f0ad4e][Medium] [3Sum](https://leetcode.com/problems/3sumi)      | [Solution - v1](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/3sum.py)<br>[Solution - v2](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/solutions/3sum-2.py) |
-| 16     | ![#f0ad4e][Medium] [3Sum Closest](https://leetcode.com/problems/3sum-closest) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/3sum-closest.py) |
-| 17     | ![#f0ad4e][Medium] [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/letter-combinations.py) |
-| 19     | ![#f0ad4e][Medium] [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/remove-nth-node-from-end.py) |
-| 20     | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/valid-parentheses.py) |
-| 21     | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/merge-two-sorted-lists.py) |
-| 22     | ![#f0ad4e][Medium] [Generate Parentheses](https://leetcode.com/problems/generate-parentheses) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/generate-parentheses.py) |
-| 23     | ![#d9534f][Hard] [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists) | [Solution - v1](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/merge-k-sorted-lists.py)<br>[Solution - v2](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/solutions/merge-k-sorted-lists-2.py) |
-| 24     | ![#f0ad4e][Medium] [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/swap-pairs.py) |
-| 26     | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/remove-duplicates-from-sorted-array.py) |
-| 27     | [Remove Element](https://leetcode.com/problems/remove-element) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/remove-element.py) |
-| 31     | ![#f0ad4e][Medium] [Next Permutation](https://leetcode.com/problems/next-permutation) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/next-permutation.py) |
-| 32     | ![#d9534f][Hard] [Longest Vaild Parentheses](https://leetcode.com/problems/longest-valid-parentheses) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/longest-valid-parentheses.py) |
-| 33     | ![#f0ad4e][Medium] [Search in a Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/search-in-rotated-sorted-array.py) |
+| 15     | [3Sum](https://leetcode.com/problems/3sumi)                                                         | ![#f0ad4e][Medium] | [Solution - v1](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/3sum.py)<br>[Solution - v2](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/solutions/3sum-2.py) |
+| 16     | [3Sum Closest](https://leetcode.com/problems/3sum-closest)                                          | ![#f0ad4e][Medium] | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/3sum-closest.py) |
+| 17     | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | ![#f0ad4e][Medium] | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/letter-combinations.py) |
+| 19     | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)  | ![#f0ad4e][Medium] | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/remove-nth-node-from-end.py) |
+| 20     | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)                                                     | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/valid-parentheses.py) |
+| 21     | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)                                           | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/merge-two-sorted-lists.py) |
+| 22     | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses)                                               | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/generate-parentheses.py) |
+| 23     | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)                                               | [Solution - v1](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/merge-k-sorted-lists.py)<br>[Solution - v2](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/solutions/merge-k-sorted-lists-2.py) |
+| 24     | [Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs)                                                 | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/swap-pairs.py) |
+| 26     | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)                 | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/remove-duplicates-from-sorted-array.py) |
+| 27     | [Remove Element](https://leetcode.com/problems/remove-element)                                                           | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/remove-element.py) |
+| 31     | [Next Permutation](https://leetcode.com/problems/next-permutation)                                                       | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/next-permutation.py) |
+| 32     | [Longest Vaild Parentheses](https://leetcode.com/problems/longest-valid-parentheses)                                     | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/longest-valid-parentheses.py) |
+| 33     | [Search in a Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)     | ![#f0ad4e][Medium] | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/search-in-rotated-sorted-array.py) |
 | 34     | ![#f0ad4e][Medium] [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/find-first-last-position-element-in-sorted-array.py) |
 | 35     | [Search Insert Position](https://leetcode.com/problems/search-insert-position) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/search-insert-position.py) |
 | 36     | ![#f0ad4e][Medium] [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/valid-sudoku.py) |
@@ -59,3 +60,45 @@ My Python 3 solutions to some Leetcode problems
 [Easy]: https://via.placeholder.com/15/5cb85c/000000?text=+
 [Medium]: https://via.placeholder.com/15/f0ad4e/000000?text=+
 [Hard]: https://via.placeholder.com/15/d9534f/000000?text=+
+
+[1-Q]: https://leetcode.com/problems/two-sum
+[2-Q]: https://leetcode.com/problems/add-two-numbers
+[3-Q]: https://leetcode.com/problems/longest-substring-without-repeating-characters
+[4-Q]: https://leetcode.com/problems/median-of-two-sorted-arrays
+[5-Q]: https://leetcode.com/problems/longest-palindromic-substring
+[6-Q]: https://leetcode.com/problems/zigzag-conversion
+[7-Q]: https://leetcode.com/problems/reverse-integer/
+[8-Q]: https://leetcode.com/problems/string-to-integer-atoi/
+[9-Q]: https://leetcode.com/problems/palindrome-number
+[10-Q]: 
+[11-Q]: 
+[12-Q]: 
+[13-Q]: 
+[14-Q]: 
+[15-Q]: 
+[16-Q]: 
+[17-Q]: 
+[18-Q]: 
+[19-Q]: 
+
+
+[1-A]: https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/two-sum.py
+[2-A]: https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/add-two-numbers.py
+[3-A]: https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/longest-substring-without-repeating-characters.py
+[4-A]: https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/median-of-two-sorted-arrays.py
+[5-A]: https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/longest-palindromic-substring.py
+[6-A1]: https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/zig-zag-conversion-2.py
+[6-A2]: https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/zig-zag-conversion-1.py
+[7-A]: https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/reverse-integer.py
+[8-A]: https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/string-to-integer-atoi.py
+[9-A]: https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/palindrome-number.py
+[10-A]: 
+[11-A]: 
+[12-A]: 
+[13-A]: 
+[14-A]: 
+[15-A]: 
+[16-A]: 
+[17-A]: 
+[18-A]: 
+[19-A]: 
