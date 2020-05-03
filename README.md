@@ -4,15 +4,17 @@ My Python 3 solutions to some Leetcode problems
 #f0ad4e
 #5cb85c
 
+![#d9534f](https://via.placeholder.com/15/d9534f/000000?text=+) 
 ![#f0ad4e](https://via.placeholder.com/15/f0ad4e/000000?text=+) 
+![#5cb85c](https://via.placeholder.com/15/5cb85c/000000?text=+)
 
-| #      | Title                                                                                               | Code | Tags |
-| ------ | --------------------------------------------------------------------------------------------------- | ---- | ---- |
-| 1      | [Two Sum](https://leetcode.com/problems/two-sum)                                                    | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/two-sum.py) | array, dictionary |
-| 2      | ![#f0ad4e](https://via.placeholder.com/15/f0ad4e/000000?text=+) [Add Two Numbers](https://leetcode.com/problems/add-two-numbers)                                    | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/add-two-numbers.py) | linked-list |
-| 3      | ![#f0ad4e](https://via.placeholder.com/15/f0ad4e/000000?text=+) [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/longest-substring-without-repeating-characters.py) | string, dictionary |
-| 4      | ![#d9534f](https://via.placeholder.com/15/d9534f/000000?text=+) [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/median-of-two-sorted-arrays.py) | array |
-| 5      | ![#f0ad4e](https://via.placeholder.com/15/f0ad4e/000000?text=+) [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/longest-palindromic-substring.py) | string |
+| #      | Title                                                                                               |   | Code | Tags |
+| ------ | --------------------------------------------------------------------------------------------------- | - | ---- | ---- |
+| 1      | [Two Sum](https://leetcode.com/problems/two-sum)                                                    | ![#5cb85c](https://via.placeholder.com/15/5cb85c/000000?text=+) |[Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/two-sum.py) | array, dictionary |
+| 2      | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers)                                    | ![#f0ad4e](https://via.placeholder.com/15/f0ad4e/000000?text=+) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/add-two-numbers.py) | linked-list |
+| 3      | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) | ![#f0ad4e](https://via.placeholder.com/15/f0ad4e/000000?text=+) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/longest-substring-without-repeating-characters.py) | string, dictionary |
+| 4      | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays) | ![#d9534f](https://via.placeholder.com/15/d9534f/000000?text=+) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/median-of-two-sorted-arrays.py) | array |
+| 5      | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring) | ![#f0ad4e](https://via.placeholder.com/15/f0ad4e/000000?text=+) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/longest-palindromic-substring.py) | string |
 | 6      | ![#f0ad4e](https://via.placeholder.com/15/f0ad4e/000000?text=+) [ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion) | [Solution - v1](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/zig-zag-conversion-1.py)<br>[Solution - v2](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/zig-zag-conversion-2.py) |
 | 7      | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/reverse-integer.py) |
 | 8      | ![#f0ad4e](https://via.placeholder.com/15/f0ad4e/000000?text=+) [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/string-to-integer-atoi.py) | |
