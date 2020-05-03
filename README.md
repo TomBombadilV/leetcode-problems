@@ -12,7 +12,7 @@ My Python 3 solutions to some Leetcode problems
 | 5      | [Longest Palindromic Substring][5-Q]                                                 | ![#f0ad4e][Medium] | [Solution][5-A]          | string |
 | 6      | [ZigZag Conversion][6-Q]                                                             | ![#f0ad4e][Medium] | [Solution - v1][6-A1]
 |        |                                                                                      |                    | [Solution - v2][6-A2]    | |
-| 7      | [Reverse Integer][7-Q]                                                               |                    | [Solution]() |
+| 7      | [Reverse Integer][7-Q]                                                               | ![#5cb85c][Easy]   | [Solution]() |
 | 8      | [String to Integer (atoi)][8-Q]                                                      | ![#f0ad4e][Medium] | [Solution]() | |
 | 9      | [Palindrome Number][9-Q]                                |                    | [Solution]() |
 | 11     | [Container With Most Water](https://leetcode.com/problems/container-with-most-water)                | ![#f0ad4e][Medium] | [Solution](https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/container-with-most-water.py) |
