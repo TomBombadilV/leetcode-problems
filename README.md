@@ -13,48 +13,48 @@ My Python 3 solutions to some Leetcode problems
 | 6      | [ZigZag Conversion][6-Q]                                                         | ![#f0ad4e][Medium] | [Solution - v1][6-A1]<br>[Solution - v2][6-A2]    |                    |
 | 7      | [Reverse Integer][7-Q]                                                           | ![#5cb85c][Easy]   | [Solution][7-A]                                   |                    |
 | 8      | [String to Integer (atoi)][8-Q]                                                  | ![#f0ad4e][Medium] | [Solution][8-A]                                   |                    |
-| 9      | [Palindrome Number][9-Q]                                                         |                    | [Solution][9-A]                                   |                    |
+| 9      | [Palindrome Number][9-Q]                                                         | ![#5cb85c][Easy]   | [Solution][9-A]                                   |                    |
 | 11     | [Container With Most Water][11-Q]                                                | ![#f0ad4e][Medium] | [Solution][11-A]                                  |                    |
 | 15     | [3Sum][15-Q]                                                                     | ![#f0ad4e][Medium] | [Solution - v1][15-A1]<br>[Solution - v2][15-A2]  |
 | 16     | [3Sum Closest][16-Q]                                                             | ![#f0ad4e][Medium] | [Solution][16-Q]                                  |
-| 17     | [Letter Combinations of a Phone Number][17-Q]                                    | ![#f0ad4e][Medium] | [Solution]() |
-| 19     | [Remove Nth Node From End of List][19-Q]                                         | ![#f0ad4e][Medium] | [Solution]() |
-| 20     | [Valid Parentheses][20-Q]                                                        | [Solution]() |
-| 21     | [Merge Two Sorted Lists][21-Q]                                                   | [Solution]() |
-| 22     | [Generate Parentheses][22-Q]                                                     | [Solution]() |
-| 23     | [Merge k Sorted Lists][23-Q]                                                     | [Solution - v1]()<br>[Solution - v2]() |
-| 24     | [Swap Nodes in Pairs][24-Q]                                                      | [Solution]() |
-| 26     | [Remove Duplicates from Sorted Array][26-Q]                                      | [Solution]() |
-| 27     | [Remove Element][27-Q]                                                           | [Solution]() |
-| 31     | [Next Permutation][31-Q]                                                         | [Solution]() |
-| 32     | [Longest Vaild Parentheses][32-Q]                                                | [Solution]() |
-| 33     | [Search in a Rotated Sorted Array][33-Q]                                         | ![#f0ad4e][Medium] | [Solution]() |
-| 34     | [Find First and Last Position of Element in Sorted Array][34-Q]                  | ![#f0ad4e][Medium] | [Solution]() |
-| 35     | [Search Insert Position][35-Q]                                                   | [Solution]() |
-| 36     | [Valid Sudoku][36-Q]                                                             | ![#f0ad4e][Medium] | [Solution]() |
-| 39     | [Combination Sum][39-Q]                                                          | ![#f0ad4e][Medium] | [Solution]() |
-| 41     | [First Missing Positive][41-Q]                                                   | ![#d9534f][Hard] | [Solution]() |
-| 42     | [Trapping Rain Water][42-Q]                                                      | ![#d9534f][Hard] | [Solution]() |
-| 45     | [Jump Game II][45-Q]                                                             | ![#d9534f][Hard] | [Solution]() |
-| 46     | [Permutations][46-Q]                                                             | ![#f0ad4e][Medium] | [Solution]() |
-| 47     | [Permutations II][47-Q]                                                          | ![#f0ad4e][Medium] | [Solution]() |
-| 48     | [Rotate Image][48-Q]                                                             | ![#f0ad4e][Medium] | [Solution]() |
-| 49     | [Group Anagrams][49-Q]                                                           | ![#f0ad4e][Medium] | [Solution]() |
-| 50     | [Pow(x, n)][50-Q]                                                                | ![#f0ad4e][Medium] | [Solution]() |
-| 53     | [Maximum Subarray][53-Q]                                                         | [Solution]() |
-| 55     | [Jump Game][55-Q] | [Solution - v1]()<br>[Python3 - v2]() |
-| 56     | [Merge Intervals][56-Q] | [Solution]() |
-| 60     | [Permutation Sequence][60-Q] | [Solution]() |
-| 62     | [Unique Paths][62-Q] | [Solution]() |
-| 64     | [Minimum Path Sum][64-Q] | [Solution - v1]()<br>[Solution - v2]() |
-| 66     | [Plus One][66-Q] | [Solution]() |
-| 70     | [Climbing Stairs][70-Q] | [Solution - v1]()<br>[Solution - v2]() |
-| 75     | [Sort Colors][75-Q] | [Solution]() |
-| 77     | [Combinations][77-Q] | [Solution]()
-| 78     | [Subsets][78-Q] | [Solution]() |
-| 79     | [Word Search][79-Q] | [Solution]() |
-| 94     | [Binary Tree Inorder Traversal][94-Q] | [Solution]() |
-| 98     | [Validate Binary Search Tree][98-Q] | [Solution]() |
+| 17     | [Letter Combinations of a Phone Number][17-Q]                                    | ![#f0ad4e][Medium] | [Solution][17-A]                                  |
+| 19     | [Remove Nth Node From End of List][19-Q]                                         | ![#f0ad4e][Medium] | [Solution][19-A]                                  |
+| 20     | [Valid Parentheses][20-Q]                                                        | ![#5cb85c][Easy]   | [Solution][20-A]                                  |
+| 21     | [Merge Two Sorted Lists][21-Q]                                                   | ![#5cb85c][Easy]   | [Solution][21-A]                                  |
+| 22     | [Generate Parentheses][22-Q]                                                     | ![#f0ad4e][Medium] | [Solution][22-A]                                  |
+| 23     | [Merge k Sorted Lists][23-Q]                                                     | ![#d9534f][Hard]   | [Solution - v1][23-A1]<br>[Solution - v2][23-A2]  |
+| 24     | [Swap Nodes in Pairs][24-Q]                                                      | ![#f0ad4e][Medium] | [Solution][24-A]                                  |
+| 26     | [Remove Duplicates from Sorted Array][26-Q]                                      | ![#5cb85c][Easy]   | [Solution][26-A]                                  |
+| 27     | [Remove Element][27-Q]                                                           | ![#5cb85c][Easy]   | [Solution][27-A]                                  |
+| 31     | [Next Permutation][31-Q]                                                         | ![#f0ad4e][Medium] | [Solution][31-A]                                  |
+| 32     | [Longest Vaild Parentheses][32-Q]                                                | ![#d9534f][Hard]   | [Solution][32-A]                                  |
+| 33     | [Search in a Rotated Sorted Array][33-Q]                                         | ![#f0ad4e][Medium] | [Solution][33-A]                                  |
+| 34     | [Find First and Last Position of Element in Sorted Array][34-Q]                  | ![#f0ad4e][Medium] | [Solution][34-A]                                  |
+| 35     | [Search Insert Position][35-Q]                                                   | ![#5cb85c][Easy]   | [Solution][35-A] |
+| 36     | [Valid Sudoku][36-Q]                                                             | ![#f0ad4e][Medium] | [Solution][36-A]                                  |
+| 39     | [Combination Sum][39-Q]                                                          | ![#f0ad4e][Medium] | [Solution][39-A]                                  |
+| 41     | [First Missing Positive][41-Q]                                                   | ![#d9534f][Hard]   | [Solution][41-A]                                  |
+| 42     | [Trapping Rain Water][42-Q]                                                      | ![#d9534f][Hard]   | [Solution][42-A]                                  |
+| 45     | [Jump Game II][45-Q]                                                             | ![#d9534f][Hard]   | [Solution][45-A]                                  |
+| 46     | [Permutations][46-Q]                                                             | ![#f0ad4e][Medium] | [Solution][46-A]                                  |
+| 47     | [Permutations II][47-Q]                                                          | ![#f0ad4e][Medium] | [Solution][47-A]                                  |
+| 48     | [Rotate Image][48-Q]                                                             | ![#f0ad4e][Medium] | [Solution][48-A]                                  |
+| 49     | [Group Anagrams][49-Q]                                                           | ![#f0ad4e][Medium] | [Solution][49-A]                                  |
+| 50     | [Pow(x, n)][50-Q]                                                                | ![#f0ad4e][Medium] | [Solution][50-A]                                  |
+| 53     | [Maximum Subarray][53-Q]                                                         | ![#5cb85c][Easy]   | [Solution][53-A] |
+| 55     | [Jump Game][55-Q]                                                                | ![#f0ad4e][Medium] | [Solution - v1][55-A1]<br>[Python3 - v2][55-A2] |
+| 56     | [Merge Intervals][56-Q]                                                          | ![#f0ad4e][Medium] | [Solution][56-A] |
+| 60     | [Permutation Sequence][60-Q]                                                     | ![#f0ad4e][Medium] | [Solution][60-A] |
+| 62     | [Unique Paths][62-Q]                                                             | ![#f0ad4e][Medium] | [Solution][62-A] |
+| 64     | [Minimum Path Sum][64-Q]                                                         | ![#f0ad4e][Medium] | [Solution - v1][64-A1]<br>[Solution - v2][64-A2] |
+| 66     | [Plus One][66-Q]                                                                 | ![#5cb85c][Easy]   | [Solution][66-A] |
+| 70     | [Climbing Stairs][70-Q]                                                          | ![#5cb85c][Easy]   | [Solution - v1][70-A1]<br>[Solution - v2][70-A2] |
+| 75     | [Sort Colors][75-Q]                                                              | ![#f0ad4e][Medium] | [Solution][75-A] |
+| 77     | [Combinations][77-Q]                                                             | ![#f0ad4e][Medium] | [Solution][77-A]
+| 78     | [Subsets][78-Q]                                                                  | ![#f0ad4e][Medium] | [Solution][78-A] |
+| 79     | [Word Search][79-Q]                                                              | ![#f0ad4e][Medium] | [Solution][79-A] |
+| 94     | [Binary Tree Inorder Traversal][94-Q]                                            | ![#f0ad4e][Medium] | [Solution][94-A] |
+| 98     | [Validate Binary Search Tree][98-Q]                                              | ![#f0ad4e][Medium] | [Solution][98-A] |
 
 [Easy]:   https://via.placeholder.com/15/5cb85c/000000?text=+
 [Medium]: https://via.placeholder.com/15/f0ad4e/000000?text=+
