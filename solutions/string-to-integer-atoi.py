@@ -1,4 +1,5 @@
 # String to Integer (atoi)
+# Time: O(n) | Space: O(1)
 
 from test import test
 
