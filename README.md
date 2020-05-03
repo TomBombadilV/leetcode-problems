@@ -3,14 +3,15 @@ My Python 3 solutions to some Leetcode problems
 
 
 
-| #      | Title                                                                                |                    | Code                     | Tags              |
-| ------ | ------------------------------------------------------------------------------------ | ------------------ | ------------------------ | ----------------- |
-| 1      | [Two Sum][1-Q]                                                                       | ![#5cb85c][Easy]   | [Solution][1-A]          | array, dictionary |
-| 2      | [Add Two Numbers][2-Q]                                                               | ![#f0ad4e][Medium] | [Solution][2-A]          | linked-list |
+| #      | Title                                                                                |                    | Code                                              | Tags              |
+| ------ | ------------------------------------------------------------------------------------ | ------------------ | ------------------------------------------------- | ----------------- |
+| 1      | [Two Sum][1-Q]                                                                       | ![#5cb85c][Easy]   | [Solution][1-A]                                   | array, dictionary |
+| 2      | [Add Two Numbers][2-Q]                                                               | ![#f0ad4e][Medium] | [Solution][2-A]                                   | linked-list |
 | 3      | [Longest Substring Without Repeating Characters][3-Q]                                | ![#f0ad4e][Medium] | [Solution][3-A]          | string, dictionary |
 | 4      | [Median of Two Sorted Arrays][4-Q]                                                   | ![#d9534f][Hard]   | [Solution][4-A]          | array |
 | 5      | [Longest Palindromic Substring][5-Q]                                                 | ![#f0ad4e][Medium] | [Solution][5-A]          | string |
-| 6      | [ZigZag Conversion][6-Q]                                                             | ![#f0ad4e][Medium] | [Solution - v1][6-A1]<br>[Solution - v2][6-A2]    |
+| 6      | [ZigZag Conversion][6-Q]                                                             | ![#f0ad4e][Medium] | [Solution - v1][6-A1]
+|        |                                                                                      |                    | [Solution - v2][6-A2]    | |
 | 7      | [Reverse Integer][7-Q]                                                               |                    | [Solution]() |
 | 8      | [String to Integer (atoi)][8-Q]                                                      | ![#f0ad4e][Medium] | [Solution]() | |
 | 9      | [Palindrome Number][9-Q]                                |                    | [Solution]() |
