@@ -13,7 +13,9 @@ My Python 3 solutions to some Leetcode problems
 | 8      | [String to Integer (atoi)][8-Q]                                                  | ![#f0ad4e][Medium] | [Solution][8-A]                                   |                    |
 | 9      | [Palindrome Number][9-Q]                                                         | ![#5cb85c][Easy]   | [Solution][9-A]                                   |                    |
 | 11     | [Container With Most Water][11-Q]                                                | ![#f0ad4e][Medium] | [Solution][11-A]                                  |                    |
+| 12     | [Integer to Roman][12-Q]                                                         | ![#f0ad4e][Medium] | [Solution][12-A]                                  |
 | 13     | [Roman to Integer][13-Q]                                                         | ![#5cb85c][Easy]   | [Solution][13-A]                                  |
+| 14     | [Longest Common Prefix][14-Q]                                                    | ![#5cb85c][Easy]   | [Solution][14-A]                                  |
 | 15     | [3Sum][15-Q]                                                                     | ![#f0ad4e][Medium] | [Solution - v1][15-A1]<br>[Solution - v2][15-A2]  |
 | 16     | [3Sum Closest][16-Q]                                                             | ![#f0ad4e][Medium] | [Solution][16-Q]                                  |
 | 17     | [Letter Combinations of a Phone Number][17-Q]                                    | ![#f0ad4e][Medium] | [Solution][17-A]                                  |
@@ -129,9 +131,9 @@ My Python 3 solutions to some Leetcode problems
 [9-Q]:     https://leetcode.com/problems/palindrome-number
 [10-Q]:    <>
 [11-Q]:    https://leetcode.com/problems/container-with-most-water
-[12-Q]:    <>
+[12-Q]:    https://leetcode.com/problems/integer-to-roman/
 [13-Q]:    https://leetcode.com/problems/roman-to-integer
-[14-Q]:    <>
+[14-Q]:    https://leetcode.com/problems/longest-common-prefix/
 [15-Q]:    https://leetcode.com/problems/3sum
 [16-Q]:    https://leetcode.com/problems/3sum-closest
 [17-Q]:    https://leetcode.com/problems/letter-combinations-of-a-phone-number
@@ -289,9 +291,9 @@ My Python 3 solutions to some Leetcode problems
 [9-A]:     https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/palindrome-number.py
 [10-A]:    <>
 [11-A]:    https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/container-with-most-water.py
-[12-A]:    <>
+[12-A]:    https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/integer-to-roman.py
 [13-A]:    https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/roman-to-integer.py
-[14-A]:    <>
+[14-A]:    https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/longest-common-prefix.py
 [15-A1]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/3sum.py
 [15-A2]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/3sum-2.py
 [16-A]:    https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/3sum-closest.py
