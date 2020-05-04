@@ -5,10 +5,9 @@ from test import test
 
 def findComplement(num: int) -> int:
     """
-    Use XOR. Example: 
-    num : 1010
-    ones: 1111
-    XOR : 0101
+    Use XOR. Example: num : 1010
+                      ones: 1111
+                      XOR : 0101
     """
     # Find order of highest set bit
     l = int(log(num, 2)) + 1
