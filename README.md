@@ -94,6 +94,7 @@ My Python 3 solutions to some Leetcode problems
 | 344    | [Reverse String][344-Q]                                                          | ![#5cb85c][Easy]   | [Solution][344-A]                                 |
 | 383    | [Ransom Note][383-Q]                                                             | ![#5cb85c][Easy]   | [Solution][383-A]                                 |
 | 394    | [Decode String][394-Q]                                                           | ![#f0ad4e][Medium] | [Solution][394-A]                                 |
+| 476    | [Number Complement][476-Q]                                                       | ![#5cb85c][Easy]   | [Solution][476-A]                                 |
 | 509    | [Fibonacci Number][509-Q]                                                        | ![#5cb85c][Easy]   | [Solution][509-A]                                 |
 | 525    | [Contiguous Array][525-Q]                                                        | ![#f0ad4e][Medium] | [Solution][525-A]                                 |
 | 543    | [Diameter of Binary Tree][543-Q]                                                 | ![#5cb85c][Easy]   | [Solution][543-A]                                 |
@@ -258,6 +259,7 @@ My Python 3 solutions to some Leetcode problems
 [344-Q]:   https://leetcode.com/problems/reverse-string
 [383-Q]:   https://leetcode.com/problems/ransom-note
 [394-Q]:   https://leetcode.com/problems/decode-string
+[476-Q]:   https://leetcode.com/problems/number-complement
 [509-Q]:   https://leetcode.com/problems/fibonacci-number
 [525-Q]:   https://leetcode.com/problems/contiguous-array
 [543-Q]:   https://leetcode.com/problems/diameter-of-binary-tree
@@ -430,6 +432,7 @@ My Python 3 solutions to some Leetcode problems
 [344-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/reverse-string.py
 [383-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/ransom-note.py
 [394-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/decode-string.py
+[476-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/number-complement.py
 [509-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/fibonacci-number.py
 [525-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/contiguous-array.py
 [543-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/diameter-of-binary-tree.py
