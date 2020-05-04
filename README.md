@@ -1,8 +1,6 @@
 # Leetcode
 My Python 3 solutions to some Leetcode problems
 
-
-
 | #      | Title                                                                            |                    | Code                                              | Tags               |
 | ------ | -------------------------------------------------------------------------------- | ------------------ | ------------------------------------------------- | ------------------ |
 | 1      | [Two Sum][1-Q]                                                                   | ![#5cb85c][Easy]   | [Solution][1-A]                                   | array, dictionary  |
@@ -30,7 +28,7 @@ My Python 3 solutions to some Leetcode problems
 | 32     | [Longest Vaild Parentheses][32-Q]                                                | ![#d9534f][Hard]   | [Solution][32-A]                                  |
 | 33     | [Search in a Rotated Sorted Array][33-Q]                                         | ![#f0ad4e][Medium] | [Solution][33-A]                                  |
 | 34     | [Find First and Last Position of Element in Sorted Array][34-Q]                  | ![#f0ad4e][Medium] | [Solution][34-A]                                  |
-| 35     | [Search Insert Position][35-Q]                                                   | ![#5cb85c][Easy]   | [Solution][35-A] |
+| 35     | [Search Insert Position][35-Q]                                                   | ![#5cb85c][Easy]   | [Solution][35-A]                                  |
 | 36     | [Valid Sudoku][36-Q]                                                             | ![#f0ad4e][Medium] | [Solution][36-A]                                  |
 | 39     | [Combination Sum][39-Q]                                                          | ![#f0ad4e][Medium] | [Solution][39-A]                                  |
 | 41     | [First Missing Positive][41-Q]                                                   | ![#d9534f][Hard]   | [Solution][41-A]                                  |
@@ -41,20 +39,40 @@ My Python 3 solutions to some Leetcode problems
 | 48     | [Rotate Image][48-Q]                                                             | ![#f0ad4e][Medium] | [Solution][48-A]                                  |
 | 49     | [Group Anagrams][49-Q]                                                           | ![#f0ad4e][Medium] | [Solution][49-A]                                  |
 | 50     | [Pow(x, n)][50-Q]                                                                | ![#f0ad4e][Medium] | [Solution][50-A]                                  |
-| 53     | [Maximum Subarray][53-Q]                                                         | ![#5cb85c][Easy]   | [Solution][53-A] |
-| 55     | [Jump Game][55-Q]                                                                | ![#f0ad4e][Medium] | [Solution - v1][55-A1]<br>[Python3 - v2][55-A2] |
-| 56     | [Merge Intervals][56-Q]                                                          | ![#f0ad4e][Medium] | [Solution][56-A] |
-| 60     | [Permutation Sequence][60-Q]                                                     | ![#f0ad4e][Medium] | [Solution][60-A] |
-| 62     | [Unique Paths][62-Q]                                                             | ![#f0ad4e][Medium] | [Solution][62-A] |
-| 64     | [Minimum Path Sum][64-Q]                                                         | ![#f0ad4e][Medium] | [Solution - v1][64-A1]<br>[Solution - v2][64-A2] |
-| 66     | [Plus One][66-Q]                                                                 | ![#5cb85c][Easy]   | [Solution][66-A] |
-| 70     | [Climbing Stairs][70-Q]                                                          | ![#5cb85c][Easy]   | [Solution - v1][70-A1]<br>[Solution - v2][70-A2] |
-| 75     | [Sort Colors][75-Q]                                                              | ![#f0ad4e][Medium] | [Solution][75-A] |
-| 77     | [Combinations][77-Q]                                                             | ![#f0ad4e][Medium] | [Solution][77-A]
-| 78     | [Subsets][78-Q]                                                                  | ![#f0ad4e][Medium] | [Solution][78-A] |
-| 79     | [Word Search][79-Q]                                                              | ![#f0ad4e][Medium] | [Solution][79-A] |
-| 94     | [Binary Tree Inorder Traversal][94-Q]                                            | ![#f0ad4e][Medium] | [Solution][94-A] |
-| 98     | [Validate Binary Search Tree][98-Q]                                              | ![#f0ad4e][Medium] | [Solution][98-A] |
+| 53     | [Maximum Subarray][53-Q]                                                         | ![#5cb85c][Easy]   | [Solution][53-A]                                  |
+| 55     | [Jump Game][55-Q]                                                                | ![#f0ad4e][Medium] | [Solution - v1][55-A1]<br>[Python3 - v2][55-A2]   |
+| 56     | [Merge Intervals][56-Q]                                                          | ![#f0ad4e][Medium] | [Solution][56-A]                                  |
+| 60     | [Permutation Sequence][60-Q]                                                     | ![#f0ad4e][Medium] | [Solution][60-A]                                  |
+| 62     | [Unique Paths][62-Q]                                                             | ![#f0ad4e][Medium] | [Solution][62-A]                                  |
+| 64     | [Minimum Path Sum][64-Q]                                                         | ![#f0ad4e][Medium] | [Solution - v1][64-A1]<br>[Solution - v2][64-A2]  |
+| 66     | [Plus One][66-Q]                                                                 | ![#5cb85c][Easy]   | [Solution][66-A]                                  |
+| 70     | [Climbing Stairs][70-Q]                                                          | ![#5cb85c][Easy]   | [Solution - v1][70-A1]<br>[Solution - v2][70-A2]  |
+| 75     | [Sort Colors][75-Q]                                                              | ![#f0ad4e][Medium] | [Solution][75-A]                                  |
+| 77     | [Combinations][77-Q]                                                             | ![#f0ad4e][Medium] | [Solution][77-A]                                  |
+| 78     | [Subsets][78-Q]                                                                  | ![#f0ad4e][Medium] | [Solution][78-A]                                  |
+| 79     | [Word Search][79-Q]                                                              | ![#f0ad4e][Medium] | [Solution][79-A]                                  |
+| 94     | [Binary Tree Inorder Traversal][94-Q]                                            | ![#f0ad4e][Medium] | [Solution][94-A]                                  |
+| 98     | [Validate Binary Search Tree][98-Q]                                              | ![#f0ad4e][Medium] | [Solution][98-A]                                  |
+| 101    | [Symmetrix Tree][101-Q]                                                          | ![#5cb85c][Easy]   | [Solution][101-A]                                 |
+| 102    | [Binary Tree Level Order Traversal][102-Q]                                       | ![#f0ad4e][Medium] | [Solution - v1][102-A1]<br>[Solution - v2][102-A2]|
+| 104    | [Maximum Depth of Binary Tree][104-Q]                                            | ![#5cb85c][Easy]   | [Solution - v1][104-A1]<br>[Solution - v2][104-A2]|
+| 114    | [Flatten Binary Tree to Linked List][114-Q]                                      | ![#f0ad4e][Medium] | [Solution][114-A]                                 |
+| 119    | [Pascal's Triangle II][119-Q]                                                    | ![#5cb85c][Easy]   | [Solution][119-A]                                 |
+| 121    | [Best Time to Buy and Sell Stock][121-Q]                                         | ![#5cb85c][Easy]   | [Solution][121-A]                                 |
+| 122    | [Best Time to Buy and Sell Stock II][122-Q]                                      | ![#5cb85c][Easy]   | [Solution][122-A]                                 |
+| 124    | [Binary Tree Maximum Path Sum][124-Q]                                            | ![#d9534f][Hard]   | [Solution][124-A]                                 |
+| 136    | [Single Number][136-Q]                                                           | ![#5cb85c][Easy]   | [Solution][136-A]                                 |
+| 138    | [Copy List with Random Pointer][138-Q]                                           | ![#f0ad4e][Medium] | [Solution][138-A]                                 |
+| 141    | [Linked List Cycle][141-Q]                                                       | ![#5cb85c][Easy]   | [Solution][141-A]                                 |
+| 142    | [Linked List Cycle II][142-Q]                                                    | ![#f0ad4e][Medium] | [Solution][142-A]                                 |
+| 146    | [LRU Cache][146-Q]                                                               | ![#f0ad4e][Medium] | [Solution - v1][146-A1]<br>[Solution - v2][146-A2]|
+| 148    | [Sort List][148-Q]                                                               | ![#f0ad4e][Medium] | [Solution][148-A]                                 |
+| 152    | [Maximum Product Subarray][152-Q]                                                | ![#f0ad4e][Medium] | [Solution][152-A]                                 |
+| 155    | [Min Stack][155-Q]                                                               | ![#5cb85c][Easy]   | [Solution - v1][155-A1]<br>[Solution - v2][155-A2]<br>[Solution - v3][155-A3]|
+| 160    | [Intersection of Two Linked Lists][160-Q]                                        | ![#5cb85c][Easy]   | [Solution][160-A]                                 |
+| 169    | [Majority Element][169-Q]                                                        | ![#5cb85c][Easy]   | [Solution][169-A]                                 |
+| 198    | [House Robber][198-Q]                                                            | ![#5cb85c][Easy]   | [Solution][198-A]                                 |
+| 200    | [Number of Islands][200-Q]                                                       | ![#f0ad4e][Medium] | [Solution][200-A]                                 |
 
 [Easy]:   https://via.placeholder.com/15/5cb85c/000000?text=+
 [Medium]: https://via.placeholder.com/15/f0ad4e/000000?text=+
@@ -160,6 +178,26 @@ My Python 3 solutions to some Leetcode problems
 [98-Q]:   https://leetcode.com/problems/validate-binary-search-tree
 [99-Q]:   <>
 [100-Q]:  <>
+[101-Q]:  https://leetcode.com/problems/symmetric-tree
+[102-Q]:  https://leetcode.com/problems/binary-tree-level-order-traversal
+[104-Q]:  https://leetcode.com/problems/maximum-depth-of-binary-tree
+[114-Q]:  https://leetcode.com/problems/flatten-binary-tree-to-linked-list
+[119-Q]:  https://leetcode.com/problems/pascals-triangle-ii
+[121-Q]:  https://leetcode.com/problems/best-time-to-buy-and-sell-stock
+[122-Q]:  https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii
+[124-Q]:  https://leetcode.com/problems/binary-tree-maximum-path-sum
+[136-Q]:  https://leetcode.com/problems/single-number
+[138-Q]:  https://leetcode.com/problems/copy-list-with-random-pointer
+[141-Q]:  https://leetcode.com/problems/linked-list-cycle
+[142-Q]:  https://leetcode.com/problems/linked-list-cycle-ii
+[146-Q]:  https://leetcode.com/problems/lru-cache
+[148-Q]:  https://leetcode.com/problems/sort-list
+[152-Q]:  https://leetcode.com/problems/maximum-product-subarray
+[155-Q]:  https://leetcode.com/problems/min-stack
+[160-Q]:  https://leetcode.com/problems/intersection-of-two-linked-lists
+[169-Q]:  https://leetcode.com/problems/majority-element
+[198-Q]:  https://leetcode.com/problems/house-robber
+[200-Q]:  https://leetcode.com/problems/number-of-islands
 
 [1-A]:    https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/two-sum.py
 [2-A]:    https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/add-two-numbers.py
@@ -267,3 +305,29 @@ My Python 3 solutions to some Leetcode problems
 [98-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/validate-binary-search-tree.py
 [99-A]:   <>
 [100-A]:  <>
+[101-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/symmetric-tree.py
+[102-A1]: https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/binary-tree-level-order-traversal.py
+[102-A2]: https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/binary-tree-level-order-traversal-with-level-grouping.py
+[104-A1]: https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/maximum-depth-of-binary-tree.py
+[104-A2]: https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/maximum-depth-of-binary-tree-again.py
+[114-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/flatten-binary-tree-to-linked-list.py
+[119-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/pascals-triangle-ii.py
+[121-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/best-time-to-buy-and-sell-stock.py
+[122-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/best-time-to-buy-and-sell-stock-ii.py
+[124-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/binary-tree-maximum-path-sum.py
+[136-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/single-number.py
+[138-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/copy-list-with-random-pointer.py
+[141-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/linked-list-cycle.py
+[142-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/linked-list-cycle-ii.py
+[146-A1]: https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/lru-cache.py
+[146-A2]: https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/lru-cache-2.py
+[148-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/sort-list.py
+[152-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/maximum-product-subarray.py
+[155-A1]: https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/min-stack.py
+[155-A2]: https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/min-stack-2.py
+[155-A3]: https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/min-stack-3.py
+[160-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/intersection-of-two-linked-lists.py
+[169-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/majority-element.py
+[198-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/house-robber.py
+[200-A1]: https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/number-of-islands.py
+[200-A2]: https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/number-of-islands-again.py
