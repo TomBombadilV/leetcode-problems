@@ -72,7 +72,32 @@ My Python 3 solutions to some Leetcode problems
 | 160    | [Intersection of Two Linked Lists][160-Q]                                        | ![#5cb85c][Easy]   | [Solution][160-A]                                 |
 | 169    | [Majority Element][169-Q]                                                        | ![#5cb85c][Easy]   | [Solution][169-A]                                 |
 | 198    | [House Robber][198-Q]                                                            | ![#5cb85c][Easy]   | [Solution][198-A]                                 |
-| 200    | [Number of Islands][200-Q]                                                       | ![#f0ad4e][Medium] | [Solution][200-A]                                 |
+| 200    | [Number of Islands][200-Q]                                                       | ![#f0ad4e][Medium] | [Solution - v1][200-A1]<br>[Solution - v2][200-A2]|
+| 201    | [Bitwise AND of Numbers Range][201-Q]                                            | ![#f0ad4e][Medium] | [Solution][201-A]                                 |
+| 202    | [Happy Number][202-Q]                                                            | ![#5cb85c][Easy]   | [Solution][202-A]                                 |
+| 206    | [Reverse Linked List][206-Q]                                                     | ![#5cb85c][Easy]   | [Solution][206-A]                                 |
+| 207    | [Course Schedule][207-Q]                                                         | ![#f0ad4e][Medium] | [Solution][207-A]                                 |
+| 208    | [Implement Trie (Prefix Tree)][208-Q]                                            | ![#f0ad4e][Medium] | [Solution][208-A]                                 |
+| 215    | [Kth Largest Element in an Array][215-Q]                                         | ![#f0ad4e][Medium] | [Solution][215-A]                                 |
+| 221    | [Maximal Square][221-Q]                                                          | ![#f0ad4e][Medium] | [Solution][221-A]                                 |
+| 226    | [Invert Binary Tree][226-Q]                                                      | ![#5cb85c][Easy]   | [Solution][226-A]                                 |
+| 234    | [Palindrome Linked List][234-Q]                                                  | ![#5cb85c][Easy]   | [Solution][234-A]                                 |
+| 236    | [Lowest Common Ancestor of a Binary Tree][236-Q]                                 | ![#f0ad4e][Medium] | [Solution][236-A]                                 |
+| 238    | [Product of Array Except Self][238-Q]                                            | ![#f0ad4e][Medium] | [Solution - v1][238-A1]<br>[Solution - v2][238-A2]|
+| 278    | [First Bad Version][278-Q]                                                       | ![#5cb85c][Easy]   | [Solution][278-A]                                 |
+| 279    | [Perfect Squares][279-Q]                                                         | ![#f0ad4e][Medium] | [Solution][279-A]                                 |
+| 283    | [Move Zeroes][283-Q]                                                             | ![#5cb85c][Easy]   | [Solution][283-A]                                 |
+| 322    | [Coin Change][322-Q]                                                             | ![#f0ad4e][Medium] | [Solution][322-A]                                 |
+| 344    | [Reverse String][344-Q]                                                          | ![#5cb85c][Easy]   | [Solution][344-A]                                 |
+| 383    | [Ransom Note][383-Q]                                                             | ![#5cb85c][Easy]   | [Solution][383-A]                                 |
+| 394    | [Decode String][394-Q]                                                           | ![#f0ad4e][Medium] | [Solution][394-A]                                 |
+| 509    | [Fibonacci Number][509-Q]                                                        | ![#5cb85c][Easy]   | [Solution][509-A]                                 |
+| 525    | [Contiguous Array][525-Q]                                                        | ![#f0ad4e][Medium] | [Solution][525-A]                                 |
+| 543    | [Diameter of Binary Tree][543-Q]                                                 | ![#5cb85c][Easy]   | [Solution][543-A]                                 |
+| 560    | [Subarray Sum Equals K][560-Q]                                                   | ![#f0ad4e][Medium] | [Solution][560-A]                                 |
+| 581    | [Shortest Unsorted Continuous Subarray][581-Q]                                   | ![#5cb85c][Easy]   | [Solution][581-A]                                 |
+| 617    | [Merge Two Binary Trees][617-Q]                                                  | ![#5cb85c][Easy]   | [Solution][617-A]                                 |
+| 678    | [Valid Parenthesis String][678-Q]                                                | ![#f0ad4e][Medium] | [Solution][678-A]                                 |
 
 [Easy]:   https://via.placeholder.com/15/5cb85c/000000?text=+
 [Medium]: https://via.placeholder.com/15/f0ad4e/000000?text=+
@@ -198,6 +223,32 @@ My Python 3 solutions to some Leetcode problems
 [169-Q]:  https://leetcode.com/problems/majority-element
 [198-Q]:  https://leetcode.com/problems/house-robber
 [200-Q]:  https://leetcode.com/problems/number-of-islands
+[201-Q]:  https://leetcode.com/problems/bitwise-and-of-numbers-range
+[202-Q]:  https://leetcode.com/problems/happy-number
+[206-Q]:  https://leetcode.com/problems/reverse-linked-list
+[207-Q]:  https://leetcode.com/problems/course-schedule
+[208-Q]:  https://leetcode.com/problems/implement-trie-prefix-tree
+[215-Q]:  https://leetcode.com/problems/kth-largest-element-in-an-array
+[221-Q]:  https://leetcode.com/problems/maximal-square
+[226-Q]:  https://leetcode.com/problems/invert-binary-tree
+[234-Q]:  https://leetcode.com/problems/palindrome-linked-list
+[236-Q]:  https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree
+[238-Q]:  https://leetcode.com/problems/product-of-array-except-self
+[278-Q]:  https://leetcode.com/problems/first-bad-version
+[279-Q]:  https://leetcode.com/problems/perfect-squares
+[283-Q]:  https://leetcode.com/problems/move-zeroes
+[322-Q]:  https://leetcode.com/problems/coin-change
+[344-Q]:  https://leetcode.com/problems/reverse-string
+[383-Q]:  https://leetcode.com/problems/ransom-note
+[394-Q]:  https://leetcode.com/problems/decode-string
+[509-Q]:  https://leetcode.com/problems/fibonacci-number
+[525-Q]:  https://leetcode.com/problems/contiguous-array
+[543-Q]:  https://leetcode.com/problems/diameter-of-binary-tree
+[560-Q]:  https://leetcode.com/problems/subarray-sum-equals-k
+[581-Q]:  https://leetcode.com/problems/shortest-unsorted-continuous-subarray
+[617-Q]:  https://leetcode.com/problems/merge-two-binary-trees
+[678-Q]:  https://leetcode.com/problems/valid-parenthesis-string
+
 
 [1-A]:    https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/two-sum.py
 [2-A]:    https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/add-two-numbers.py
@@ -331,3 +382,29 @@ My Python 3 solutions to some Leetcode problems
 [198-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/house-robber.py
 [200-A1]: https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/number-of-islands.py
 [200-A2]: https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/number-of-islands-again.py
+[201-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/bitwise-and-of-numbers-range.py
+[202-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/happy-number.py
+[206-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/reverse-linked-list.py
+[207-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/course-schedule.py
+[208-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/implement-trie.py
+[215-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/kth-largest-element.py
+[221-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/maximal-square.py
+[226-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/invert-binary-tree.py
+[234-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/palindrome-linked-list.py
+[236-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/lowest-common-ancestor-of-a-binary-tree.py
+[238-A1]: https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/product-of-array-except-self.py
+[238-A2]: https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/product-of-array-except-self-2.py
+[278-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/first-bad-version.py
+[279-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/perfect-squares.py
+[283-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/move-zeroes.py
+[322-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/coin-change.py
+[344-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/reverse-string.py
+[383-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/ransom-note.py
+[394-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/decode-string.py
+[509-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/fibonacci-number.py
+[525-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/contiguous-array.py
+[543-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/diameter-of-binary-tree.py
+[560-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/subarray-sum-equals-k.py
+[581-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/shortest-unsorted-continuous-subarray.py
+[617-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/merge-two-binary-trees.py
+[678-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/valid-parenthesis-string.py
