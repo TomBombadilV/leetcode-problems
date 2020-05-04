@@ -33,25 +33,3 @@ print(minStack.getMin())
 minStack.pop()
 print(minStack.top())
 print(minStack.getMin())
-
-
-["MinStack",
-"push",2147483646
-"push",2147483646
-"push",2147483647
-"top",
-"pop",
-"getMin",
-"pop",
-"getMin",
-"pop",
-"push",2147483647
-"top",
-"getMin",
-"push",-2147483648
-"top",
-"getMin",
-"pop",
-"getMin"]
-
-,2147483647 , 
