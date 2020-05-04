@@ -19,6 +19,7 @@ My Python 3 solutions to some Leetcode problems
 | 15     | [3Sum][15-Q]                                                                     | ![#f0ad4e][Medium] | [Solution - v1][15-A1]<br>[Solution - v2][15-A2]  |
 | 16     | [3Sum Closest][16-Q]                                                             | ![#f0ad4e][Medium] | [Solution][16-Q]                                  |
 | 17     | [Letter Combinations of a Phone Number][17-Q]                                    | ![#f0ad4e][Medium] | [Solution][17-A]                                  |
+| 18     | [4Sum][18-Q]                                                                     | ![#f0ad4e][Medium] | [Solution][18-A]                                  |
 | 19     | [Remove Nth Node From End of List][19-Q]                                         | ![#f0ad4e][Medium] | [Solution][19-A]                                  |
 | 20     | [Valid Parentheses][20-Q]                                                        | ![#5cb85c][Easy]   | [Solution][20-A]                                  |
 | 21     | [Merge Two Sorted Lists][21-Q]                                                   | ![#5cb85c][Easy]   | [Solution][21-A]                                  |
@@ -138,7 +139,7 @@ My Python 3 solutions to some Leetcode problems
 [15-Q]:    https://leetcode.com/problems/3sum
 [16-Q]:    https://leetcode.com/problems/3sum-closest
 [17-Q]:    https://leetcode.com/problems/letter-combinations-of-a-phone-number
-[18-Q]:    <>
+[18-Q]:    https://leetcode.com/problems/4sum/
 [19-Q]:    https://leetcode.com/problems/remove-nth-node-from-end-of-list
 [20-Q]:    https://leetcode.com/problems/valid-parentheses
 [21-Q]:    https://leetcode.com/problems/merge-two-sorted-lists
@@ -300,7 +301,7 @@ My Python 3 solutions to some Leetcode problems
 [15-A2]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/3sum-2.py
 [16-A]:    https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/3sum-closest.py
 [17-A]:    https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/letter-combinations.py
-[18-A]:    <>
+[18-A]:    https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/4sum.py
 [19-A]:    https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/remove-nth-node-from-end.py
 [20-A]:    https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/valid-parentheses.py
 [21-A]:    https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/merge-two-sorted-lists.py
