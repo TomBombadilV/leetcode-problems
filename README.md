@@ -13,6 +13,7 @@ My Python 3 solutions to some Leetcode problems
 | 8      | [String to Integer (atoi)][8-Q]                                                  | ![#f0ad4e][Medium] | [Solution][8-A]                                   |                    |
 | 9      | [Palindrome Number][9-Q]                                                         | ![#5cb85c][Easy]   | [Solution][9-A]                                   |                    |
 | 11     | [Container With Most Water][11-Q]                                                | ![#f0ad4e][Medium] | [Solution][11-A]                                  |                    |
+| 13     | [Roman to Integer][13-Q]                                                         | ![#5cb85c][Easy]   | [Solution][13-A]                                  |
 | 15     | [3Sum][15-Q]                                                                     | ![#f0ad4e][Medium] | [Solution - v1][15-A1]<br>[Solution - v2][15-A2]  |
 | 16     | [3Sum Closest][16-Q]                                                             | ![#f0ad4e][Medium] | [Solution][16-Q]                                  |
 | 17     | [Letter Combinations of a Phone Number][17-Q]                                    | ![#f0ad4e][Medium] | [Solution][17-A]                                  |
@@ -98,19 +99,19 @@ My Python 3 solutions to some Leetcode problems
 | 581    | [Shortest Unsorted Continuous Subarray][581-Q]                                   | ![#5cb85c][Easy]   | [Solution][581-A]                                 |
 | 617    | [Merge Two Binary Trees][617-Q]                                                  | ![#5cb85c][Easy]   | [Solution][617-A]                                 |
 | 678    | [Valid Parenthesis String][678-Q]                                                | ![#f0ad4e][Medium] | [Solution][678-A]                                 |
-| 700    | [Search in a Binary Search Tree][700-Q]                                          | ![#5cb85c][Easy]   | [Solution][617-A]                                 |
-| 739    | [Daily Temperatures][739-Q]                                                      | ![#f0ad4e][Medium] | [Solution][678-A]                                 |
-| 771    | [Jewels and Stones][771-Q]                                                       | ![#5cb85c][Easy]   | [Solution][617-A]                                 |
-| 779    | [K-th Symbol in Grammar][779-Q]                                                  | ![#f0ad4e][Medium] | [Solution][678-A]                                 |
-| 844    | [Backspace String Compare][844-Q]                                                | ![#5cb85c][Easy]   | [Solution][617-A]                                 |
-| 876    | [Middle of the Linked List][876-Q]                                               | ![#5cb85c][Easy]   | [Solution][617-A]                                 |
-| 1008   | [Construct Binary Search Tree from Preorder Traversal][1008-Q]                   | ![#f0ad4e][Medium] | [Solution][678-A]                                 |
-| 1046   | [Last Stone Weight][1046-Q]                                                      | ![#5cb85c][Easy]   | [Solution][617-A]                                 |
-| 1137   | [N-th Tribonacci Number][1137-Q]                                                 | ![#5cb85c][Easy]   | [Solution][617-A]                                 |
-| 1143   | [Longest Common Subsequence][1143-Q]                                             | ![#f0ad4e][Medium] | [Solution][678-A]                                 |
-| 1431   | [Kids With the Greatest Number of Candies][1431-Q]                               | ![#5cb85c][Easy]   | [Solution][617-A]                                 |
-| 1432   | [Max Difference You Can Get From Changing an Integer][1432-Q]                    | ![#f0ad4e][Medium] | [Solution][678-A]                                 |
-| 1433   | [Check if a String Can Break Another String][1433-Q]                             | ![#f0ad4e][Medium] | [Solution][678-A]                                 |
+| 700    | [Search in a Binary Search Tree][700-Q]                                          | ![#5cb85c][Easy]   | [Solution][700-A]                                 |
+| 739    | [Daily Temperatures][739-Q]                                                      | ![#f0ad4e][Medium] | [Solution][739-A]                                 |
+| 771    | [Jewels and Stones][771-Q]                                                       | ![#5cb85c][Easy]   | [Solution][771-A]                                 |
+| 779    | [K-th Symbol in Grammar][779-Q]                                                  | ![#f0ad4e][Medium] | [Solution][779-A]                                 |
+| 844    | [Backspace String Compare][844-Q]                                                | ![#5cb85c][Easy]   | [Solution][844-A]                                 |
+| 876    | [Middle of the Linked List][876-Q]                                               | ![#5cb85c][Easy]   | [Solution][876-A]                                 |
+| 1008   | [Construct Binary Search Tree from Preorder Traversal][1008-Q]                   | ![#f0ad4e][Medium] | [Solution][1008-A]                                |
+| 1046   | [Last Stone Weight][1046-Q]                                                      | ![#5cb85c][Easy]   | [Solution][1046-A]                                |
+| 1137   | [N-th Tribonacci Number][1137-Q]                                                 | ![#5cb85c][Easy]   | [Solution - v1][1137-A1]<br>[Solution - v2][1137-A2]|
+| 1143   | [Longest Common Subsequence][1143-Q]                                             | ![#f0ad4e][Medium] | [Solution][1143-A]                                |
+| 1431   | [Kids With the Greatest Number of Candies][1431-Q]                               | ![#5cb85c][Easy]   | [Solution][1431-A]                                |
+| 1432   | [Max Difference You Can Get From Changing an Integer][1432-Q]                    | ![#f0ad4e][Medium] | [Solution][1432-A]                                |
+| 1433   | [Check if a String Can Break Another String][1433-Q]                             | ![#f0ad4e][Medium] | [Solution][1433-A]                                |
 
 
 [Easy]:    https://via.placeholder.com/15/5cb85c/000000?text=+
@@ -129,7 +130,7 @@ My Python 3 solutions to some Leetcode problems
 [10-Q]:    <>
 [11-Q]:    https://leetcode.com/problems/container-with-most-water
 [12-Q]:    <>
-[13-Q]:    <>
+[13-Q]:    https://leetcode.com/problems/roman-to-integer
 [14-Q]:    <>
 [15-Q]:    https://leetcode.com/problems/3sum
 [16-Q]:    https://leetcode.com/problems/3sum-closest
@@ -289,7 +290,7 @@ My Python 3 solutions to some Leetcode problems
 [10-A]:    <>
 [11-A]:    https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/container-with-most-water.py
 [12-A]:    <>
-[13-A]:    <>
+[13-A]:    https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/roman-to-integer.py
 [14-A]:    <>
 [15-A1]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/3sum.py
 [15-A2]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/3sum-2.py
