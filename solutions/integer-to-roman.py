@@ -5,12 +5,15 @@
 # represented by x number of "1"s in the current order.
 #
 # Method 2:
-# Hard code "minus 1" numbers
+# Hard code "minus 1" numbers, then keep adding the corresponding numerals 
+# from highest to lowest
 
 from test import test
 
 def intToRoman(num: int) -> str:
-
+    """
+    Method 1
+    """
     # Only works for numbers representable by Roman numeral system
     if num < 1 or num > 3999:
         return ''
@@ -47,9 +50,20 @@ def intToRoman(num: int) -> str:
         res = add + res
     return res
 
+def intToRoman(num: int) -> str:
+    """
+    Method 2
+    """
+    roman = ['M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I']
+    digit = [ 1000, 900, 500, 400,  100,  90,  50,  40,   10,  9,    5,   4,    1 ] 
+    res = ''
+    for r, d in zip(roman, digit):
+        res += r * (num // d)
+        num %= d
+    return res
+
 # Driver code
 cases = [(3, 'III'), (4, 'IV'), (9, 'IX'), (58, 'LVIII'), 
          (1994, 'MCMXCIV'), (99, 'XCIX'), (1, 'I'), (10, 'X'),
          (50, 'L'), (49, 'XLIX')]
 test(intToRoman, cases)
-
