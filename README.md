@@ -94,6 +94,7 @@ My Python 3 solutions to some Leetcode problems
 | 322    | [Coin Change][322-Q]                                                             | ![#f0ad4e][Medium] | [Solution][322-A]                                 |
 | 344    | [Reverse String][344-Q]                                                          | ![#5cb85c][Easy]   | [Solution][344-A]                                 |
 | 383    | [Ransom Note][383-Q]                                                             | ![#5cb85c][Easy]   | [Solution][383-A]                                 |
+| 387    | [First Unique Character in a String][387-Q]                                      | ![#5cb85c][Easy]   | [Solution][387-A]                                 |
 | 394    | [Decode String][394-Q]                                                           | ![#f0ad4e][Medium] | [Solution][394-A]                                 |
 | 476    | [Number Complement][476-Q]                                                       | ![#5cb85c][Easy]   | [Solution][476-A]                                 |
 | 509    | [Fibonacci Number][509-Q]                                                        | ![#5cb85c][Easy]   | [Solution][509-A]                                 |
@@ -259,6 +260,7 @@ My Python 3 solutions to some Leetcode problems
 [322-Q]:   https://leetcode.com/problems/coin-change
 [344-Q]:   https://leetcode.com/problems/reverse-string
 [383-Q]:   https://leetcode.com/problems/ransom-note
+[387-Q]:   https://leetcode.com/problems/first-unique-character-in-a-string
 [394-Q]:   https://leetcode.com/problems/decode-string
 [476-Q]:   https://leetcode.com/problems/number-complement
 [509-Q]:   https://leetcode.com/problems/fibonacci-number
@@ -432,6 +434,7 @@ My Python 3 solutions to some Leetcode problems
 [322-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/coin-change.py
 [344-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/reverse-string.py
 [383-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/ransom-note.py
+[387-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/first-unique-character-in-a-string.py
 [394-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/decode-string.py
 [476-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/number-complement.py
 [509-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/fibonacci-number.py
