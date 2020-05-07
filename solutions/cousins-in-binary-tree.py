@@ -45,5 +45,6 @@ root.left = TreeNode(1)
 root.left.left = TreeNode(3)
 root.right = TreeNode(2)
 root.right.right = TreeNode(4)
+
 print(isCousins(root, 3, 4))
 print(isCousins(root, 0, 1))
