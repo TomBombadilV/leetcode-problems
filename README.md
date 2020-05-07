@@ -110,6 +110,7 @@ My Python 3 solutions to some Leetcode problems
 | 779    | [K-th Symbol in Grammar][779-Q]                                                  | ![#f0ad4e][Medium] | [Solution][779-A]                                 |
 | 844    | [Backspace String Compare][844-Q]                                                | ![#5cb85c][Easy]   | [Solution][844-A]                                 |
 | 876    | [Middle of the Linked List][876-Q]                                               | ![#5cb85c][Easy]   | [Solution][876-A]                                 |
+| 993    | [Cousins in Binary Tree][993-Q]                                                  | ![#5cb85c][Easy]   | [Solution][993-A]                                 |
 | 1008   | [Construct Binary Search Tree from Preorder Traversal][1008-Q]                   | ![#f0ad4e][Medium] | [Solution][1008-A]                                |
 | 1046   | [Last Stone Weight][1046-Q]                                                      | ![#5cb85c][Easy]   | [Solution][1046-A]                                |
 | 1137   | [N-th Tribonacci Number][1137-Q]                                                 | ![#5cb85c][Easy]   | [Solution - v1][1137-A1]<br>[Solution - v2][1137-A2]|
@@ -276,6 +277,7 @@ My Python 3 solutions to some Leetcode problems
 [779-Q]:   https://leetcode.com/problems/k-th-symbol-in-grammar
 [844-Q]:   https://leetcode.com/problems/backspace-string-compare
 [876-Q]:   https://leetcode.com/problems/middle-of-the-linked-list
+[993-Q]:   https://leetcode.com/problems/cousins-in-binary-tree
 [1008-Q]:  https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal
 [1046-Q]:  https://leetcode.com/problems/last-stone-weight
 [1137-Q]:  https://leetcode.com/problems/n-th-tribonacci-number
@@ -450,6 +452,7 @@ My Python 3 solutions to some Leetcode problems
 [779-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/kth-grammar.py
 [844-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/backspace-string-compare.py
 [876-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/middle-of-the-linked-list.py
+[993-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/cousins-in-binary-tree.py
 [1008-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/construct-binary-search-tree-from-preorder-traversal.py
 [1046-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/last-stone-weight.py
 [1137-A1]: https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/nth-tribonacci.py
