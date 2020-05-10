@@ -13,4 +13,4 @@ def test(function, cases: List) -> None:
         res = function(*args)
         # Check result against expected value
         print("Passed" if res == expected else "{0} failed with {1} expected {2}".\
-              format(*args, res, expected))
+              format(args, res, expected))
