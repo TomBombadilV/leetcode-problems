@@ -93,6 +93,7 @@ My Python 3 solutions to some Leetcode problems
 | 283    | [Move Zeroes][283-Q]                                                             | ![#5cb85c][Easy]   | [Solution][283-A]                                 |
 | 322    | [Coin Change][322-Q]                                                             | ![#f0ad4e][Medium] | [Solution][322-A]                                 |
 | 344    | [Reverse String][344-Q]                                                          | ![#5cb85c][Easy]   | [Solution][344-A]                                 |
+| 367    | [Valid Perfect Square][367-Q]                                                    | ![#5cb85c][Easy]   | [Solution][367-A]                                 |
 | 383    | [Ransom Note][383-Q]                                                             | ![#5cb85c][Easy]   | [Solution][383-A]                                 |
 | 387    | [First Unique Character in a String][387-Q]                                      | ![#5cb85c][Easy]   | [Solution][387-A]                                 |
 | 394    | [Decode String][394-Q]                                                           | ![#f0ad4e][Medium] | [Solution][394-A]                                 |
@@ -111,6 +112,7 @@ My Python 3 solutions to some Leetcode problems
 | 844    | [Backspace String Compare][844-Q]                                                | ![#5cb85c][Easy]   | [Solution][844-A]                                 |
 | 876    | [Middle of the Linked List][876-Q]                                               | ![#5cb85c][Easy]   | [Solution][876-A]                                 |
 | 993    | [Cousins in Binary Tree][993-Q]                                                  | ![#5cb85c][Easy]   | [Solution][993-A]                                 |
+| 997    | [Find the Town Judge][997-Q]                                                     | ![#5cb85c][Easy]   | [Solution][997-A]                                 |
 | 1008   | [Construct Binary Search Tree from Preorder Traversal][1008-Q]                   | ![#f0ad4e][Medium] | [Solution][1008-A]                                |
 | 1046   | [Last Stone Weight][1046-Q]                                                      | ![#5cb85c][Easy]   | [Solution][1046-A]                                |
 | 1137   | [N-th Tribonacci Number][1137-Q]                                                 | ![#5cb85c][Easy]   | [Solution - v1][1137-A1]<br>[Solution - v2][1137-A2]|
@@ -261,6 +263,7 @@ My Python 3 solutions to some Leetcode problems
 [283-Q]:   https://leetcode.com/problems/move-zeroes
 [322-Q]:   https://leetcode.com/problems/coin-change
 [344-Q]:   https://leetcode.com/problems/reverse-string
+[367-Q]:   https://leetcode.com/problems/valid-perfect-square
 [383-Q]:   https://leetcode.com/problems/ransom-note
 [387-Q]:   https://leetcode.com/problems/first-unique-character-in-a-string
 [394-Q]:   https://leetcode.com/problems/decode-string
@@ -279,6 +282,7 @@ My Python 3 solutions to some Leetcode problems
 [844-Q]:   https://leetcode.com/problems/backspace-string-compare
 [876-Q]:   https://leetcode.com/problems/middle-of-the-linked-list
 [993-Q]:   https://leetcode.com/problems/cousins-in-binary-tree
+[997-Q]:   https://leetcode.com/problems/find-the-town-judge
 [1008-Q]:  https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal
 [1046-Q]:  https://leetcode.com/problems/last-stone-weight
 [1137-Q]:  https://leetcode.com/problems/n-th-tribonacci-number
@@ -437,6 +441,7 @@ My Python 3 solutions to some Leetcode problems
 [283-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/move-zeroes.py
 [322-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/coin-change.py
 [344-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/reverse-string.py
+[367-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/valid-perfect-square.py
 [383-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/ransom-note.py
 [387-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/first-unique-character-in-a-string.py
 [394-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/decode-string.py
@@ -455,6 +460,7 @@ My Python 3 solutions to some Leetcode problems
 [844-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/backspace-string-compare.py
 [876-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/middle-of-the-linked-list.py
 [993-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/cousins-in-binary-tree.py
+[997-Q]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/find-the-town-judge.py
 [1008-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/construct-binary-search-tree-from-preorder-traversal.py
 [1046-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/last-stone-weight.py
 [1137-A1]: https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/nth-tribonacci.py
