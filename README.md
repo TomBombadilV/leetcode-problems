@@ -460,7 +460,7 @@ My Python 3 solutions to some Leetcode problems
 [844-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/backspace-string-compare.py
 [876-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/middle-of-the-linked-list.py
 [993-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/cousins-in-binary-tree.py
-[997-Q]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/find-the-town-judge.py
+[997-A]:   https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/find-the-town-judge.py
 [1008-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/construct-binary-search-tree-from-preorder-traversal.py
 [1046-A]:  https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/last-stone-weight.py
 [1137-A1]: https://github.com/TomBombadilV/leetcode-problems/blob/master/solutions/nth-tribonacci.py
