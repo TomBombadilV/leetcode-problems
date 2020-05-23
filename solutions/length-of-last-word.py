@@ -7,9 +7,13 @@ from test import test
 
 def lengthOfLastWord(s: str) -> int:
     l = s.split(' ')
+    
+    # Iterate from back to front until nonempty string is found
     i = 1
     while i <= len(l) and not(l[-i]):
         i += 1
+
+    # If iterated past beginning, return 0, else length of string
     return len(l[-i]) if i <= len(l) else 0
 
 # Driver Code
