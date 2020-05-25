@@ -1,9 +1,13 @@
 # Insert Interval
+# Look at all intervals that are overlapping. Condense by preserving 
+# min start and max end.
+# Time: O(n) | Space: O(1)
 
 from test import test
 from typing import List
 
 def insert(intervals: List[List[int]], newInterval: List[int]) -> List[List[int]]:
+    
     if not(intervals):
         return [newInterval]
 
@@ -19,17 +23,20 @@ def insert(intervals: List[List[int]], newInterval: List[int]) -> List[List[int]
 
     # If new interval is smaller than current interval (no overlap)
     if intervals[i][0] > newInterval[1]:
-        return intervals[:i] + [newInterval] + intervals[i:]
+        intervals.insert(i, newInterval)
+        return intervals
     
     # Condense intervals overlapping with new interval
+    # Preserve start
     start = min(intervals[i][0], newInterval[0])
 
+    # Preserve end, remove overlapping intervals
     while i < len(intervals) and intervals[i][0] <= newInterval[1]:
         end = max(intervals[i][1], newInterval[1])
-        intervals = intervals[:i] + intervals[i + 1:]
-
-    intervals = intervals[:i] + [[start, end]] + intervals[i:]
-
+        del[intervals[i]]
+    
+    # Add new interval
+    intervals.insert(i, [start, end])
     return intervals
 
 # Driver Code
