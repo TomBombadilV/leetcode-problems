@@ -8,4 +8,4 @@ class TreeNode {
     }
 }
 
-module.exports = TreeNode
+module.exports = TreeNode;
