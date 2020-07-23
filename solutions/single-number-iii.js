@@ -12,8 +12,8 @@ const singleNumber = nums => {
     }
 
     // Get most significant set bit
-    const setBit = Math.floor(Math.log2(xor));
-    
+    const setBit = xor & -xor;
+
     // Partition xor by set bit
     let xorA = 0;
     let xorB = 0;
@@ -25,5 +25,5 @@ const singleNumber = nums => {
 };
 
 // Driver Code
-const nums = [1,2,1,3,2,5];
+const nums = [-1, 2, -3, -2, -1, 2]
 console.log(singleNumber(nums));
