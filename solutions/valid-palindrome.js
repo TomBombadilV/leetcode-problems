@@ -12,10 +12,14 @@ const test = require('./test');
 
 // Method 1
 const isPalindrome1 = s => {
+    // Check length
     if (s.length == 0 || s.length == 1) {
         return true;
     } 
-    s = s.replace(/\W/g, '').toLowerCase();
+    // Sanitize string
+    s = s.replace(/[_\W]/g, '').toLowerCase();
+    
+    // Check from left and right until pointers meet
     let left = 0;
     let right = s.length - 1;
     while (left < right) {
