@@ -3,10 +3,10 @@
 
 const titleToNumber = s => {
     // Sanitize string
-    if (s.find(/[^A-Z]/g)) {
+    /*if (s.find(/[^A-Z]/g)) {
         console.log("Please enter valid Excel Title String!");
         return
-    }
+    }*/
 
     let res = 0;
     for (let i = 0; i < s.length; i++) {
@@ -22,4 +22,13 @@ const titleToNumber = s => {
 
 // Driver Code
 let s = "ABC";
-console.log(titleToNumber(s));
+s = 'ALL';
+const readline = require('readline').createInterface({
+    input: process.stdin,
+    output: process.stout
+});
+
+readline.question('Enter column title: ', (s) => {
+    console.log(titleToNumber(s));
+    readline.close();
+});
