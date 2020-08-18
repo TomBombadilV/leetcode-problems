@@ -1,10 +1,10 @@
 // Distribute Candies to People
 // Brute Force Method: Keep incrementally distributing.
-// Time: O(candies) || Space: O(people)
+// Time: O(sqrt(candies)) || Space: O(people)
 //
 // Math Method: Use n(n+1)/2 formula to calculate number of turns needed to distribute
 // all of the candies. Calculate 
-// Time: O(min(candies, people)) || Space: O(people)
+// Time: O(min(sqrt(candies), people)) || Space: O(people)
 
 const test = require('./test');
 
