@@ -33,9 +33,6 @@ const detectCapitalUseOriginal = word => {
 
 /** 
  * New version to include all lowercase case
- *
- * @param {String} word
- * @return {Boolean}
  */
 const detectCapitalUse = word => {
     // Don't need to check if word is 0 or 1 char long
@@ -59,11 +56,42 @@ const detectCapitalUse = word => {
 };
 
 /**
+ * Method using Regex 
+ */
+const detectCapitalUseRegex = word => {
+    // Using * instead of + for [A-Z] rule to test for empty string
+    return /^([A-Z][a-z]+|[A-Z]*|[a-z]+)$/.test(word);
+};
+
+/**
+ * Method using sums
+ */
+const detectCapitalUseSum = word => {
+    if (word.length <= 1) {
+        return true;
+    }
+    // Count how many uppercase letters exist
+    let upperSum = 0;
+    for (let i = 0; i < word.length; i++) {
+        if (word[i] == word[i].toUpperCase()) {
+            upperSum++;
+        }
+    }
+    // Get case of first letter
+    let firstIsUpper = word[0] == word[0].toUpperCase();
+    
+    // If first letter lowercase, sum must be 0.
+    // If first letter uppercase, sum must be 1 or word length.
+    if ((!firstIsUpper && upperSum > 0) || 
+        (firstIsUpper && (upperSum > 1 && upperSum < word.length))) {
+        return false;
+    }
+    return true;
+};
+
+/**
  * Pretty short version that uses more space. Compares string to version that
  * is all caps, and version that is all lower case except for first letter.
- *
- * @param {String} word
- * @return {Boolean}
  */
 const detectCapitalUsePretty = word => {
     return word == word.toUpperCase() || 
@@ -75,5 +103,7 @@ const test = require('./test');
 const cases = [['', true], ['S', true], ['s', true], ['USA', true], 
                ['uSA', false], ['uSA', false], ['usa', true], 
                ['USa', false], ['UsA', false], ['Usa', true]];
-test(cases, detectCapitalUse);
-test(cases, detectCapitalUsePretty);
+//test(cases, detectCapitalUse);
+//test(cases, detectCapitalUseRegex);
+test(cases, detectCapitalUseSum);
+//test(cases, detectCapitalUsePretty);
