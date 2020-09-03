@@ -31,7 +31,21 @@ const repeatedSubstringPattern = s => {
     }
     return false;
 };
- 
+
+/** 
+ * Someone's better solution
+ *
+ * @param {string} s 
+ * @return {boolean}
+ */
+const repeatedSubstringPatternBetter = s => {
+    if (s.length <= 1) {
+        return false;
+    }
+    s2 = (s + s).slice(1, -1);
+    return s2.search(s) != -1;
+};
+
 // Driver Code
 const cases = [['abcadabcadab', false],
                ['abcadabcad', true],
@@ -41,4 +55,5 @@ const cases = [['abcadabcadab', false],
                ['ab', false],
                ['abac', false]
 ];
-test(cases, repeatedSubstringPattern);
+//test(cases, repeatedSubstringPattern);
+test(cases, repeatedSubstringPatternBetter);
