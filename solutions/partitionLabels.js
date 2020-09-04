@@ -1,20 +1,23 @@
 // Partition Labels
+// Time: O(n) | Space: O(n)
 
 const test = require('./test');
 
 /**
- * Use greedy method
+ * Use greedy method. 
+ * 1. Start with first character. Create interval of its start and end indices.
+ * 2. Iterate through entire interval, updating interval to include last indices
+ *    of each character within it
+ * 3. Once interval end is reached, add to result and keep iterating until end of string.
  *
  * @param {string} S
  * @param {number[]}
  */
 const partitionLabels = S => {
-    if (S == '') {
-        return [];
-    }
+    // Results, dictionary of each char's last index
     let [res, lastIndex] = [[], {}];
+    
     i = 0;
-
     while (i < S.length) {
         // Interval starts and ends with first and last indices of first letter
         let start = i;
