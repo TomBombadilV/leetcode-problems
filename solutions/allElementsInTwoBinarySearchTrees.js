@@ -33,10 +33,9 @@ const getAllElements = (root1, root2) => {
 };
 
 // Driver Code
-//let root1 = new TreeNode(2);
-//root1.left = new TreeNode(1);
-//root1.right = new TreeNode(4);
-let root1 = null;
+let root1 = new TreeNode(2);
+root1.left = new TreeNode(1);
+root1.right = new TreeNode(4);
 
 let root2 = new TreeNode(1);
 root2.left = new TreeNode(0);
