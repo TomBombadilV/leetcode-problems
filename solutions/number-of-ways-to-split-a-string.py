@@ -17,7 +17,7 @@ def num_ways(s: str) -> int:
     # If no 1s in the string, there are (n - 2) + (n - 3) + ... + 1 ways to split it
     # ex: 00000 => 0|0|000, 0|00|00, 0|000|0, 00|0|00, 00|00|0, 000|0|0
     if ones == 0:
-        return (len(s) - 1) * (len(s) - 2) // 2
+        return ((len(s) - 1) * (len(s) - 2) // 2) % (10 ** 9 + 7)
     # Number of 1s in each chunk
     ones /= 3
     curr_ones, curr_zeroes = 0, 0
