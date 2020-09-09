@@ -3,7 +3,9 @@
 const test = require('./test');
 
 /**
- * Split into array of numbers. Compare from head while numbers are equal
+ * Split into array of numbers. Compare from head while numbers are equal.
+ * Then, if numbers are equal, check remaining lengths to see which one
+ * is larger.
  *
  * @param {String} version1 
  * @param {String} version2
