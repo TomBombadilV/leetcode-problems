@@ -46,6 +46,9 @@ const largestNumberBroken = nums => {
     return nums.join('');
 };
 
+/**
+ * Add strings together and compare which one is larger
+ */
 const largestNumber = nums => {
     nums = nums.sort((a, b) => {
         let [s, t] = [String(a) + String(b), String(b) + String(a)];
