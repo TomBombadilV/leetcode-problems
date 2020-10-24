@@ -10,6 +10,8 @@ def test(function, cases: List) -> None:
     """
     for case in cases:
         args, expected = case[:-1], case[-1]
+        # Save args for printing in case they are manipulated in function
+        orig_args = args
         res = function(*args)
         # Check result against expected value
         print("Passed" if res == expected else "{0} failed with {1} expected {2}".\
