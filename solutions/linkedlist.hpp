@@ -17,8 +17,11 @@ struct ListNode {
 //template <typename T>
 //ListNode buildList(std::vector<T> l);
 
-ListNode *buildList(std::vector<int> l);
-ListNode *buildRandomList(int n);
+ListNode* buildList(std::vector<int> l);
+ListNode* buildRandomList(int n);
+ListNode* appendToHead(ListNode*, int val);
 void printLinkedList(ListNode *head);
+int linkedListSize(ListNode *head);
+
 
 #endif /* LINKED_LIST_HPP */

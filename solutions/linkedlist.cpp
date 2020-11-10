@@ -20,7 +20,7 @@ ListNode* buildList(std::vector<int> l) {
     ListNode *curr = head;
 
     // Build linked list from vector
-    for (unsigned i = 1; i < l.size() - 1; i++) {
+    for (unsigned i = 1; i < l.size(); i++) {
         ListNode *node = new ListNode(l[i]);
         curr->next = node; 
         curr = curr->next;
@@ -87,6 +87,15 @@ ListNode* buildRandomList(int n) {
     return head;
 }
 
+/*
+ * Appends new node of given value to the head of the list.
+ */
+ListNode* appendToHead(ListNode* head, int val) {
+    ListNode* node = new ListNode(val);
+    node->next = head;
+    return node;
+}
+
 /* 
  * Prints out the node values of a linked list.
  */
@@ -98,4 +107,20 @@ void printLinkedList(ListNode *head) {
         curr = (*curr).next;
     }
     std::cout << "\n";
+}
+
+/* 
+ * Takes head of list and returns size of list.
+ */
+int linkedListSize(ListNode *head) {
+    
+    int size = 0;
+    ListNode *curr = head;
+    
+    while (curr != NULL) {
+        size++;
+        curr = curr->next;
+    }
+
+    return size;
 }
